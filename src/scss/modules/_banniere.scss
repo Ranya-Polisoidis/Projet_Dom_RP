@@ -1,0 +1,116 @@
+/* ########################################################################################################################################################################################## */
+/* Banniere (header) */
+/* ########################################################################################################################################################################################### */
+
+
+.divBanniere {
+    padding-top: 345px;
+    padding-bottom: 345px;
+    padding-left: 300px;
+    padding-right: 300px;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.79);
+}
+
+.divBanniereGenerale{
+    display: flex;
+    font-size: 25px;
+}
+
+.divBaniere1{
+    padding-right: 200px;
+    // background-color: rgba(255, 0, 0, 0.496);
+}
+
+.h2Banniere{
+    font-size: 60px;
+}
+
+// voir pour les deux (car il sont dans navbar)
+.btnGetStarted{
+
+}
+.h2BtnGetStarted{
+
+}
+// 
+
+.divBaniere2{
+    padding-left: 200px;
+}
+
+.imgBanniere{
+    width: 450px;
+}
+
+
+
+// .btn_neige{
+//     /* color: rgba(255, 255, 255, 0.882); !mettre ici installer autrement */ 
+//     border:none;
+//     background-color:transparent
+// }
+
+
+// .div_banniere {
+//     padding-top: 430px;
+//     padding-bottom: 320px;
+//     padding-left: 130px;
+//     padding-right: 130px;
+//     display: flex;
+//     align-items: center;
+// }
+
+// .div1_banniere {
+//     width: 820px;
+// }
+
+// .div2_banniere {
+//     width: 360px;
+//     display: flex;
+//     align-items: center;
+//     justify-content: center;
+// }
+
+// .icone_video {
+//     font-size: $font-size_icone_video;
+// }
+
+// .iframe {
+//     width: 900px;
+//     height: 490px;
+// }
+
+
+// // Animation
+// .boutonplay {
+//     display: flex;
+//     align-items: center;
+//     justify-content: center;
+//     background-color: blue; // ici 
+//     color: blue; // ici 
+//     font-size: 50px;
+//     width: 85px;
+//     height: 85px;
+//     z-index: 2;
+//     border-radius: 100%;
+//     position: relative;
+//     border: 15px solid rgb(151, 136, 107, 1) !important;
+// }
+
+// .boutonplay:before {
+//     content: '';
+//     position: absolute;
+//     border: 3px solid blue; // ici
+//     border-radius: 50%;
+//     top: -5px;
+//     left: -5px;
+//     right: -5px;
+//     bottom: -5px;
+//     animation: effectcercle1 1.5s linear infinite;
+//     opacity: 0;
+//     z-index: 1;
+// }
+

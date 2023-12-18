@@ -1,0 +1,83 @@
+/* ########################################################################################################################################################################################### */
+/* Nav (header) */
+/* ########################################################################################################################################################################################### */
+
+
+.nav{
+
+    // Important !
+    // Avant tout enlever margin et padding en 0 dans mon ul (en dessous)
+    // Pour modifier parfaitement!
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+    // padding-right: 100px;
+    // padding-left: 100px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    /* pour fixer en haut et tjr présente */
+    position: fixed;
+    top: 0;
+    width: 100%;
+    /* width:100vw; */ /* ! lui ? */
+}
+
+.ul{
+
+    // !Important tjr à mettre
+    margin:0;
+    padding:0;
+
+    font-size: 25px;
+    list-style-type: none;
+
+    display: flex;
+    align-items: center;
+
+    justify-content: space-between; // ! tjr car c'est bcp + simple a utiliser vus qu'il sont dans les bords ! 
+    gap:30px;
+}
+
+a{
+    text-decoration: none;
+    color: rgba(183, 140, 236, 0.882);
+}
+
+// changer l'animation ! 
+a:hover{
+    text-decoration: none;
+    color:rgba(255, 255, 255)
+}
+
+.aMolenGeek{
+    color:rgba(255, 255, 255);
+    padding-right: 700px;
+}
+
+// ! voir comment les sérer un peu plus 
+.aReste{
+    // gap:50px;
+}
+
+
+// de ma nav et ma banniere !
+.btnGetStarted{    
+    text-decoration: none;
+    color: rgba(183, 140, 236, 0.882);
+    background-color:transparent;
+    border:solid 4px;
+    border-radius: 10px;
+    width: 180px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+// de ma nav et ma banniere !
+.h2BtnGetStarted{
+    color:rgba(255, 255, 255)
+}
