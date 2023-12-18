@@ -1,0 +1,116 @@
+/* ########################################################################################################################################################################################## */
+/* Section 1 */
+/* ########################################################################################################################################################################################### */
+
+
+.divGeneraleSection1{
+    display: flex;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-right: 80px;
+    padding-left: 80px;
+}
+
+.div1DivSection1{
+    padding-right: 110px;
+}
+
+.h1Section1{
+    font-size: 50px;
+    color: rgb(40, 64, 89);
+    margin:0;
+    padding-bottom: 12px;
+}
+
+.h3Section1{
+    font-size: 25px;
+    font-style: italic;
+    font-weight: normal;
+    color:rgb(60, 60, 60);
+    margin:0;
+    padding-bottom: 20px;
+}
+
+// //
+.divAllSection1{
+    display: flex;
+    // align-items: center;
+}
+
+.iconeAllSection1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    // padding-right: 20px;
+
+    border:2px solid rgb(110, 98, 242);
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    text-align: center; // pour centrer sinon pas centrer ! 
+
+    color:rgb(110, 98, 242);
+}
+
+.pAllSection1{
+    // display: flex;
+    // align-items: center;
+    // justify-content: center;
+    font-size: 25px;
+    color:rgb(60, 60, 60);
+    padding-left: 10px;
+    
+    margin: 0;
+    padding-bottom: 30px;
+}
+// //
+
+.btnReadMore{
+    text-decoration: none;
+    border-radius: 10px;
+    width: 180px;
+    height: 50px;
+    display: flex;
+    
+    // align-items: center;
+
+    // justify-content: center;
+    padding-left: 25px;
+    background: linear-gradient(45deg, rgba(86, 58, 250, 0.9) 0%, rgba(116, 15, 214, 0.9) 100%), url("lien de l'image") center center no-repeat;
+    border: none;
+}
+
+.h2BtnReadMore{
+    color:rgba(255, 255, 255)
+}
+
+
+
+// 
+.testeO{
+    font-size: 25px;
+
+}
+.teste{
+    // font-size: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    // padding-right: 20px;
+
+    border:2px solid rgb(110, 98, 242);
+    border-radius: 50%;
+    width: 40px;
+    // height: 40px;
+    font-size: 20px;
+    text-align: center; // pour centrer sinon pas centrer ! 
+    
+
+    color:rgb(110, 98, 242);
+
+    padding: 10px;
+}
+// 

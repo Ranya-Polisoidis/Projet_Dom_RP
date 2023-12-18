@@ -10,9 +10,6 @@
     // Pour modifier parfaitement!
     padding-top: 20px;
     padding-bottom: 20px;
-    
-    // padding-right: 100px;
-    // padding-left: 100px;
 
     display: flex;
     align-items: center;
@@ -23,6 +20,10 @@
     top: 0;
     width: 100%;
     /* width:100vw; */ /* ! lui ? */
+
+
+    // background-color:rgba(60, 48, 192, 0.909);
+    background: linear-gradient(45deg, rgba(86, 58, 250, 0.9) 0%, rgba(116, 15, 214, 0.9) 100%), url("lien de l'image") center center no-repeat;
 }
 
 .ul{
@@ -55,6 +56,7 @@ a:hover{
 .aMolenGeek{
     color:rgba(255, 255, 255);
     padding-right: 700px;
+    font-size: 35px;
 }
 
 // ! voir comment les sérer un peu plus 
