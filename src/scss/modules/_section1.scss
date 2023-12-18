@@ -3,27 +3,27 @@
 /* ########################################################################################################################################################################################### */
 
 
-.divGeneraleSection1{
+.divSection1{
     display: flex;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 120px;
+    padding-bottom: 120px;
     padding-right: 80px;
     padding-left: 80px;
 }
 
-.div1DivSection1{
-    padding-right: 110px;
+.div1Section1{
+    padding-right: 20px;
 }
 
 .h1Section1{
-    font-size: 50px;
+    font-size: 35px;
     color: rgb(40, 64, 89);
     margin:0;
     padding-bottom: 12px;
 }
 
 .h3Section1{
-    font-size: 25px;
+    font-size: 19px;
     font-style: italic;
     font-weight: normal;
     color:rgb(60, 60, 60);
@@ -31,34 +31,40 @@
     padding-bottom: 20px;
 }
 
+
+
+
+
+
 // //
 .divAllSection1{
     display: flex;
-    // align-items: center;
+    align-items: start; // pour que mon icone reste bien (au-dessus) à la première ligne de mon p (pAllSection1) --> margin: 0 et padding-bottom: 30px
 }
 
 .iconeAllSection1{
+
+    // ! A retenir: quand c'est une icone on va pas lui mettre de w ou de h mais plutot jouer avec le font et padding ! 
+    // width: 40px;
+    // height: 40px;
+    font-size: 10px;
+    padding: 5px;
+
     display: flex;
     align-items: center;
     justify-content: center;
 
-    // padding-right: 20px;
+    color:rgb(110, 98, 242);
 
     border:2px solid rgb(110, 98, 242);
     border-radius: 50%;
-    width: 40px;
-    height: 40px;
-    font-size: 20px;
-    text-align: center; // pour centrer sinon pas centrer ! 
-
-    color:rgb(110, 98, 242);
 }
 
 .pAllSection1{
     // display: flex;
     // align-items: center;
     // justify-content: center;
-    font-size: 25px;
+    font-size: 19px;
     color:rgb(60, 60, 60);
     padding-left: 10px;
     
@@ -67,50 +73,60 @@
 }
 // //
 
-.btnReadMore{
+
+
+// // 
+// .testeO{
+//     font-size: 25px;
+
+// }
+// .teste{
+//     // font-size: 10px;
+//     display: flex;
+//     align-items: center;
+//     justify-content: center;
+
+//     // padding-right: 20px;
+
+//     border:2px solid rgb(110, 98, 242);
+//     border-radius: 50%;
+//     width: 40px;
+//     // height: 40px;
+//     font-size: 20px;
+//     // text-align: center; // pour centrer sinon pas centrer ! 
+    
+
+//     color:rgb(110, 98, 242);
+
+//     padding: 10px;
+// }
+// //
+
+
+// ! mettre animation
+.btnReadMoreSection1{
+    display: flex;
+    align-items: center;
+    padding-left: 25px;
+
     text-decoration: none;
     border-radius: 10px;
     width: 180px;
     height: 50px;
     display: flex;
+    font-size: 11px;
     
     // align-items: center;
 
     // justify-content: center;
-    padding-left: 25px;
     background: linear-gradient(45deg, rgba(86, 58, 250, 0.9) 0%, rgba(116, 15, 214, 0.9) 100%), url("lien de l'image") center center no-repeat;
     border: none;
 }
 
-.h2BtnReadMore{
+.h2BtnReadMoreSection1{
     color:rgba(255, 255, 255)
 }
 
-
-
-// 
-.testeO{
-    font-size: 25px;
-
+.imgSection1{
+    width: 630px;
 }
-.teste{
-    // font-size: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    // padding-right: 20px;
-
-    border:2px solid rgb(110, 98, 242);
-    border-radius: 50%;
-    width: 40px;
-    // height: 40px;
-    font-size: 20px;
-    text-align: center; // pour centrer sinon pas centrer ! 
-    
-
-    color:rgb(110, 98, 242);
-
-    padding: 10px;
-}
-// 

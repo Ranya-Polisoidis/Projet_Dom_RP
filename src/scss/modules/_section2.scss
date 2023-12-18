@@ -2,14 +2,15 @@
 /* Section 2 */
 /* ########################################################################################################################################################################################### */
 
-.divGeneraleSection2{
+
+.divSection2{
     display: flex; 
     align-items: center;
     justify-content: space-between;
-    padding-right: 300px;
-    padding-left: 300px;
-    padding-top: 90px;
-    padding-bottom: 90px;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 70px;
+    padding-bottom: 70px;
     background: linear-gradient(45deg, rgba(86, 58, 250, 0.9) 0%, rgba(116, 15, 214, 0.9) 100%), url("lien de l'image") center center no-repeat;
 }
 
@@ -24,12 +25,12 @@
     margin: 0;
     padding-bottom: 12px;
     color:rgba(255, 255, 255);
-    font-size: 70px;
+    font-size: 50px;
 }
 
 .pAllSection2{
     margin: 0;
     color:rgba(255, 255, 255);
-    font-size: 24px;
+    font-size: 18px;
     margin: 0;
 }
