@@ -24,7 +24,6 @@ let iconeCoffee=document.querySelector(".iconeCoffee")
 let h3AllSection3=document.querySelectorAll(".h3AllSection3")
 
 let h3_1=h3AllSection3[0]
-console.log(h3_1);
 let h3_2=h3AllSection3[1]
 let h3_3=h3AllSection3[2]
 let h3_4=h3AllSection3[3]
@@ -34,13 +33,12 @@ let h3_6=h3AllSection3[5]
 
 let pAllSection3=document.querySelectorAll(".pAllSection3")
 
-let p_1=pAllSection3[1] // pas 0 caril sagit du sous titre
-console.log(p_1);
-let p_2=pAllSection3[2]
-let p_3=pAllSection3[3]
-let p_4=pAllSection3[4]
-let p_5=pAllSection3[5]
-let p_6=pAllSection3[6]
+let p_1=pAllSection3[0] 
+let p_2=pAllSection3[1]
+let p_3=pAllSection3[2]
+let p_4=pAllSection3[3]
+let p_5=pAllSection3[4]
+let p_6=pAllSection3[5]
 
 cube1.addEventListener("mouseover", function () {
     cube1.style.backgroundColor="rgb(78, 181, 255)" 
@@ -131,6 +129,8 @@ cube6.addEventListener("mouseover", function () {
         p_6.style.color="rgb(72, 73, 76)"
     })
 })
+
+
 
 export{cube1,cube2,cube3,cube4,cube5,cube6}
 

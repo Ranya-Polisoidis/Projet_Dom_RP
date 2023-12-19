@@ -1,0 +1,45 @@
+
+
+// !  mettre mes boutons de ma nav et de ma banniere
+
+
+// Dans mes section 1 3 4 RAJOUTER LES AUTRES !
+
+.divMixin{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-right: 90px;
+    padding-left: 90px;
+    // display: block;
+    // align-items: center;
+    // justify-content: center;
+}
+
+.divTexteMixin{
+    text-align: center;
+}
+
+.h1Mixin{
+    color: rgb(55, 56, 58);
+    font-size: 30px;
+    margin: 0;
+}
+
+.divSurlignerh1Mixin{
+    border:2px solid rgb(110, 98, 242);
+    width: 5%;
+    margin-right: 600px; // Il est pas nécessaire
+    margin-left: 600px;
+}
+
+.pAllMixin{
+    color: rgb(72, 73, 76);
+    margin:0;
+    font-size: 17px;
+}
+
+.marginBottomMixin{
+    margin-bottom: 25px;
+}
+
+

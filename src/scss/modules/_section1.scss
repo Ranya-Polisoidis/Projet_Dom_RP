@@ -5,10 +5,6 @@
 
 .divSection1{
     display: flex;
-    padding-top: 100px;
-    padding-bottom: 100px;
-    padding-right: 90px;
-    padding-left: 90px;
 }
 
 .div1Section1{
@@ -31,17 +27,19 @@
     padding-bottom: 20px;
 }
 
-.divAllSection1{
-    display: flex;
-    align-items: start; // pour que mon icone reste bien (au-dessus) à la première ligne de mon p (pAllSection1) --> margin: 0 et padding-bottom: 30px
+.pAllSection1{
+    font-size: 17px;
+    color:rgb(60, 60, 60);
+    
+    margin: 0;
+    padding-bottom: 20px;
 }
 
-.iconeAllSection1{
-
+.spanAllSection1{
     // ! A retenir: quand c'est une icone on va pas lui mettre de w ou de h mais plutot jouer avec le font et padding ! 
     // width: 40px;
     // height: 40px;
-    font-size: 10px;
+    font-size: 8px;
     padding: 5px;
 
     display: flex;
@@ -52,19 +50,10 @@
 
     border:2px solid rgb(110, 98, 242);
     border-radius: 50%;
+    
+    margin-right: 10px;
 }
 
-.pAllSection1{
-    // display: flex;
-    // align-items: center;
-    // justify-content: center;
-    font-size: 19px;
-    color:rgb(60, 60, 60);
-    padding-left: 10px;
-    
-    margin: 0;
-    padding-bottom: 30px;
-}
 
 // ! mettre animation
 .btnReadMoreSection1{
@@ -91,5 +80,5 @@
 }
 
 .imgSection1{
-    width: 630px;
+    width: 610px;
 }

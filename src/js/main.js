@@ -9,7 +9,5 @@
 
 import {lidDropdown} from "./modules/dropdown.js";
 
-import {cube1,cube2} from "./modules/animation.js";
-
-// import cube2 from "./modules/animation.js";
+import {cube1,cube2,cube3,cube4,cube5,cube6} from "./modules/animation.js";
 
