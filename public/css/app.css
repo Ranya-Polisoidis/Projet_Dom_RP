@@ -353,6 +353,101 @@ a:hover {
   padding-left: 40px;
 }
 
+/* ########################################################################################################################################################################################## */
+/* Section 5 */
+/* ########################################################################################################################################################################################### */
+.divSection5 {
+  background-color: rgb(249, 248, 255);
+}
+
+.divAllSection5 {
+  display: flex;
+}
+
+.divAllTemoignageSection6 {
+  margin-left: 20px;
+}
+
+.divAllTemoignageTexteSection5 {
+  background-color: white;
+  padding-top: 30px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 39px;
+  border-radius: 8px;
+  width: 359px;
+}
+
+.pAllTexteSection5 {
+  font-size: 17px;
+  font-style: italic;
+}
+
+.iconeSection5 {
+  font-size: 24px;
+  color: rgb(160, 153, 236);
+}
+
+.divTemoignageProfileEntierSection5 {
+  margin-top: -35px;
+  padding-left: 25px;
+}
+
+.imgSection5 {
+  width: 90px;
+  margin-right: 4px;
+  border-radius: 50%;
+}
+
+.h6AllSection5 {
+  color: rgb(55, 56, 58);
+  font-size: 20px;
+  margin: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.pAllStatutSection5 {
+  color: rgb(113, 115, 121);
+  margin: 0;
+}
+
+.divCarouselBTN {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btnCarouselAll {
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+  margin-right: 5px;
+  margin-left: 5px;
+  border: 1px solid rgb(89, 80, 193);
+  background-color: rgb(249, 248, 255);
+}
+
+.btnCarousel1 {
+  background-color: rgb(89, 80, 193);
+}
+
+.divCarousel2 {
+  display: none;
+}
+
+.divCarousel3 {
+  display: none;
+}
+
+.divCarousel4 {
+  display: none;
+}
+
+.divCarousel5 {
+  display: none;
+}
+
 /*!
  * Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
