@@ -1,4 +1,3 @@
-
 /* ########################################################################################################################################################################################### */
 /* Dropdown */
 /* ########################################################################################################################################################################################### */
@@ -119,10 +118,14 @@ ulLien.style.paddingTop="50px"
 
 ulLien.style.display="none";
 
-export default lidDropdown.addEventListener("click",function () {
+lidDropdown.addEventListener("click",function () {
     if(ulLien.style.display==="none"){
         ulLien.style.display="block"
     } else {
         ulLien.style.display="none";
     }
 })
+
+
+// exporter tjr en fin
+export {lidDropdown}

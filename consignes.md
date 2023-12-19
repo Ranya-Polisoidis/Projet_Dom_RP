@@ -11,3 +11,4 @@ Projet Dom
 Bonus : 
 - Faites en sorte d'avoir un scroll smooth et que chaque component arrive de manière douce
 
+
