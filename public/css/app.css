@@ -448,6 +448,90 @@ a:hover {
   display: none;
 }
 
+/* ########################################################################################################################################################################################## */
+/* Section 6 */
+/* ########################################################################################################################################################################################### */
+.imgSection6 {
+  width: 300px;
+  height: 200px;
+}
+
+.divSection6 {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-right: 70px;
+  padding-left: 70px;
+}
+
+.h1SoloSection6 {
+  color: rgb(55, 56, 58);
+  font-size: 30px;
+}
+
+.divBtnSection6 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btnAllSection6 {
+  border: none;
+  background-color: transparent;
+  font-size: 20px;
+  text-decoration: underline;
+  text-underline-offset: 15px;
+  text-decoration-color: rgb(142, 144, 150);
+  padding-bottom: 40px;
+  margin-right: 7px;
+  margin-left: 7px;
+  color: rgb(55, 56, 58);
+}
+
+.btnIASection6 {
+  text-decoration-color: rgb(55, 56, 58);
+}
+
+.titreAllSection6 {
+  text-align: center;
+}
+
+.pSection6 {
+  color: rgb(113, 115, 121);
+  margin: 0;
+  font-size: 15px;
+  margin-bottom: 4px;
+}
+
+.h1Section6 {
+  color: rgb(55, 56, 58);
+  margin: 0;
+  margin-bottom: 40px;
+  font-size: 30px;
+}
+
+.divAllSection6 {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.h1AllSection6 {
+  color: rgb(55, 56, 58);
+}
+
+.pAllSection6 {
+  color: rgb(113, 115, 121);
+}
+
+.divDev {
+  display: none;
+}
+
+.divUIUX {
+  display: none;
+}
+
 /*!
  * Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
