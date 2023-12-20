@@ -640,6 +640,69 @@ a:hover {
   color: white;
 }
 
+/* ########################################################################################################################################################################################## */
+/* Section 8 */
+/* ########################################################################################################################################################################################### */
+.divSection8 {
+  background: linear-gradient(45deg, rgba(86, 58, 250, 0.9) 0%, rgba(116, 15, 214, 0.9) 100%), url("lien de l'image") center center no-repeat;
+}
+
+.divAllAccordion {
+  padding-right: 110px;
+  padding-left: 110px;
+}
+
+.btnAccordionAllSection8 {
+  font-size: 20px;
+  border-radius: 5px;
+  border: transparent;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 20px;
+  padding-right: 30px;
+  background-color: white;
+}
+
+.iconeFlecheAllSection8 {
+  padding-left: 590px;
+}
+
+.pQuestionAllSection8 {
+  color: rgb(36, 37, 38);
+  font-size: 18px;
+  margin: 0;
+}
+
+.pReponsesAllSection8 {
+  color: rgb(96, 97, 99);
+  font-size: 18px;
+  margin: 0;
+  padding-top: 20px;
+  display: none;
+}
+
+.texteBlancSection8 {
+  color: white;
+}
+
+.surlignementBlancSection8 {
+  border: 2px solid white;
+}
+
+.iconeInterrogationAllSection8 {
+  color: rgba(86, 58, 250, 0.9);
+  border: 2px solid rgba(86, 58, 250, 0.9);
+  font-size: 15px;
+  padding-left: 3px;
+  padding-right: 3px;
+  padding-bottom: 2px;
+  padding-top: 2px;
+  border-radius: 50%;
+}
+
 /*!
  * Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)

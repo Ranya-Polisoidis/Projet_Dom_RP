@@ -44,4 +44,4 @@ btn3NavsAndTabs.addEventListener("click", function () {
     btn3NavsAndTabs.style.textDecorationColor="rgb(55, 56, 58)"
 })
 
-export { btn1NavsAndTabs, btn2NavsAndTabs, btn3NavsAndTabs }
+export {btn1NavsAndTabs,btn2NavsAndTabs,btn3NavsAndTabs }
