@@ -15,5 +15,6 @@ import {btnCarousel1,btnCarousel2,btnCarousel3,btnCarousel4,btnCarousel5} from "
 
 import {btn1NavsAndTabs,btn2NavsAndTabs,btn3NavsAndTabs} from "./modules/navsAndTabs.js";
 
+import {btnMonthYearSection7} from "./modules/section7.js";
 
 

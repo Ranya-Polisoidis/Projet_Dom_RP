@@ -1,0 +1,113 @@
+/* ########################################################################################################################################################################################## */
+/* Section 7 */
+/* ########################################################################################################################################################################################### */
+
+.divSection7 {
+    background-color: rgb(249, 248, 255);
+}
+
+.btnMonthYearSection7 {
+}
+
+.divToutLesMontantsSection7 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.divPartieSoloMontantAllSection7{
+    background-color: white;
+}
+
+.divPartieGrisAllSection7 {
+    background-color: rgb(243, 242, 242);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px; // (j'ai du enlever au .h3AllSection7 son margin
+    padding-bottom: 20px; 
+}
+
+.h3AllSection7 {
+    color: rgb(55, 56, 58);
+    margin:0
+}
+
+
+.divMontantAllSection7 { // ici j'ai mis mes padding pour pouvoir au partie grise de ce mettre ainsi
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 100px;
+    padding-left:100px;
+}
+
+.suppMontantAllSection7 {
+    font-size: 20px;
+    color: rgba(86, 58, 250, 0.9);
+    font-weight: bold;
+}
+
+.pMontantAllSection7 {
+    margin: 0;
+    color: rgba(86, 58, 250, 0.9);
+    font-weight: bold;
+    font-size: 30px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+.spanMontantAllSection7 {
+    color: rgb(178, 178, 178);
+    align-items: end;
+}
+
+.divTexteSection6{
+    padding-bottom: 10px;
+}
+
+.pTexteSection6{
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+.ptexteBarrerSection6{
+    text-decoration: line-through;
+    color: rgb(178, 178, 178);
+}
+
+.btnBuyNowAllSection7 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    text-decoration: none;
+    border-radius: 5px;
+    width: 120px;
+    height: 40px;
+    display: flex;
+    font-size: 11px;
+
+
+    background: linear-gradient(45deg, rgba(86, 58, 250, 0.9) 0%, rgba(116, 15, 214, 0.9) 100%), url("lien de l'image") center center no-repeat;
+    border: none;
+}
+
+.h2BtnBuyNowSection7 {
+    color: rgba(255, 255, 255);
+    font-size: 14px;
+    font-weight: bold;
+}
+
+
+
+// Variante
+.businessBgcMauve{
+    background-color:rgba(86, 58, 250, 0.9) ;
+}
+
+.businessColorBlanc{
+    color:white
+}

@@ -33,6 +33,24 @@
   margin-bottom: 25px;
 }
 
+.btnGetStartedNavHeaderEtBanniere {
+  text-decoration: none;
+  color: rgba(183, 140, 236, 0.882);
+  background-color: transparent;
+  border: solid 2px;
+  border-radius: 5px;
+  width: 150px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 11px;
+}
+
+.h2BtnGetStartedNavHeaderEtBanniere {
+  color: rgb(255, 255, 255);
+}
+
 /* ########################################################################################################################################################################################### */
 /* Body */
 /* ########################################################################################################################################################################################### */
@@ -97,24 +115,6 @@ a:hover {
 
 .iconeDropDownNavHeader {
   font-size: 15px;
-}
-
-.btnGetStartedNavHeaderEtBanniere {
-  text-decoration: none;
-  color: rgba(183, 140, 236, 0.882);
-  background-color: transparent;
-  border: solid 2px;
-  border-radius: 5px;
-  width: 150px;
-  height: 45px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 11px;
-}
-
-.h2BtnGetStartedNavHeaderEtBanniere {
-  color: rgb(255, 255, 255);
 }
 
 /* ########################################################################################################################################################################################## */
@@ -202,7 +202,7 @@ a:hover {
   align-items: center;
   padding-left: 25px;
   text-decoration: none;
-  border-radius: 10px;
+  border-radius: 5px;
   width: 180px;
   height: 50px;
   display: flex;
@@ -342,7 +342,7 @@ a:hover {
 }
 
 .pAllSection4 {
-  color: rgb(113, 115, 121);
+  color: rgb(178, 178, 178);
 }
 
 .imgSection4 {
@@ -385,7 +385,7 @@ a:hover {
 
 .iconeSection5 {
   font-size: 24px;
-  color: rgb(160, 153, 236);
+  color: rgba(86, 58, 250, 0.9);
 }
 
 .divTemoignageProfileEntierSection5 {
@@ -408,7 +408,7 @@ a:hover {
 }
 
 .pAllStatutSection5 {
-  color: rgb(113, 115, 121);
+  color: rgb(178, 178, 178);
   margin: 0;
 }
 
@@ -496,7 +496,7 @@ a:hover {
 }
 
 .pSection6 {
-  color: rgb(113, 115, 121);
+  color: rgb(178, 178, 178);
   margin: 0;
   font-size: 15px;
   margin-bottom: 4px;
@@ -506,7 +506,7 @@ a:hover {
   color: rgb(55, 56, 58);
   margin: 0;
   margin-bottom: 40px;
-  font-size: 30px;
+  font-size: 35px;
 }
 
 .divAllSection6 {
@@ -521,7 +521,7 @@ a:hover {
 }
 
 .pAllSection6 {
-  color: rgb(113, 115, 121);
+  color: rgb(178, 178, 178);
 }
 
 .divDev {
@@ -530,6 +530,107 @@ a:hover {
 
 .divUIUX {
   display: none;
+}
+
+/* ########################################################################################################################################################################################## */
+/* Section 7 */
+/* ########################################################################################################################################################################################### */
+.divSection7 {
+  background-color: rgb(249, 248, 255);
+}
+
+.divToutLesMontantsSection7 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.divPartieSoloMontantAllSection7 {
+  background-color: white;
+}
+
+.divPartieGrisAllSection7 {
+  background-color: rgb(243, 242, 242);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.h3AllSection7 {
+  color: rgb(55, 56, 58);
+  margin: 0;
+}
+
+.divMontantAllSection7 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-right: 100px;
+  padding-left: 100px;
+}
+
+.suppMontantAllSection7 {
+  font-size: 20px;
+  color: rgba(86, 58, 250, 0.9);
+  font-weight: bold;
+}
+
+.pMontantAllSection7 {
+  margin: 0;
+  color: rgba(86, 58, 250, 0.9);
+  font-weight: bold;
+  font-size: 30px;
+  padding-top: 15px;
+  padding-bottom: 10px;
+}
+
+.spanMontantAllSection7 {
+  color: rgb(178, 178, 178);
+  align-items: end;
+}
+
+.divTexteSection6 {
+  padding-bottom: 10px;
+}
+
+.pTexteSection6 {
+  text-align: center;
+  padding-bottom: 5px;
+}
+
+.ptexteBarrerSection6 {
+  text-decoration: line-through;
+  color: rgb(178, 178, 178);
+}
+
+.btnBuyNowAllSection7 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  border-radius: 5px;
+  width: 120px;
+  height: 40px;
+  display: flex;
+  font-size: 11px;
+  background: linear-gradient(45deg, rgba(86, 58, 250, 0.9) 0%, rgba(116, 15, 214, 0.9) 100%), url("lien de l'image") center center no-repeat;
+  border: none;
+}
+
+.h2BtnBuyNowSection7 {
+  color: rgb(255, 255, 255);
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.businessBgcMauve {
+  background-color: rgba(86, 58, 250, 0.9);
+}
+
+.businessColorBlanc {
+  color: white;
 }
 
 /*!
