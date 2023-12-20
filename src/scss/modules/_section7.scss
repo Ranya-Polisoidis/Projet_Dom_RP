@@ -23,11 +23,20 @@
 .divPartieGrisAllSection7 {
     background-color: rgb(243, 242, 242);
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    text-align: center;
     padding-top: 20px; // (j'ai du enlever au .h3AllSection7 son margin
     padding-bottom: 20px; 
+
+    padding-right: 90px; 
+    padding-left:90px;
+}
+
+.borderRadiusTopSection7{
+    border-radius: 5px 5px 0px 0px;
+}
+
+.borderRadiusBottomSection7{
+    border-radius: 0px 0px 5px 5px;
 }
 
 .h3AllSection7 {
@@ -36,12 +45,10 @@
 }
 
 
-.divMontantAllSection7 { // ici j'ai mis mes padding pour pouvoir au partie grise de ce mettre ainsi
+.divMontantAllSection7 { 
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-right: 100px;
-    padding-left:100px;
 }
 
 .suppMontantAllSection7 {
@@ -71,11 +78,7 @@
 .pTexteSection6{
     text-align: center;
     padding-bottom: 5px;
-}
-
-.ptexteBarrerSection6{
-    text-decoration: line-through;
-    color: rgb(178, 178, 178);
+    color:rgb(55, 56, 58);
 }
 
 .btnBuyNowAllSection7 {
@@ -102,8 +105,12 @@
 }
 
 
-
 // Variante
+.ptexteBarrerSection6{
+    text-decoration: line-through;
+    color: rgb(178, 178, 178);
+}
+
 .businessBgcMauve{
     background-color:rgba(86, 58, 250, 0.9) ;
 }
@@ -111,3 +118,5 @@
 .businessColorBlanc{
     color:white
 }
+
+

@@ -19,7 +19,7 @@ let spanMontant4=spanMontantAllSection7[3]
 
 
 btnMonthYearSection7.addEventListener("click", function () {
-    pMontant1.innerHTML="0&nbsp;&nbsp;"
+    pMontant1.innerHTML="0&nbsp;"
     pMontant2.innerHTML="190&nbsp;"
     pMontant3.innerHTML="290&nbsp;"
     pMontant4.innerHTML="490&nbsp;"
@@ -31,7 +31,7 @@ btnMonthYearSection7.addEventListener("click", function () {
 
     btnMonthYearSection7.addEventListener("click", function () {
         if(pMontant2.innerHTML=="190&nbsp;"){
-            pMontant1.innerHTML="0&nbsp;&nbsp;"
+            pMontant1.innerHTML="0&nbsp;"
             pMontant2.innerHTML="19&nbsp;"
             pMontant3.innerHTML="29&nbsp;"
             pMontant4.innerHTML="49&nbsp;"
@@ -42,7 +42,7 @@ btnMonthYearSection7.addEventListener("click", function () {
             spanMontant4.innerHTML="/&nbsp;month"
 
         } else {
-            pMontant1.innerHTML="0&nbsp;&nbsp;"
+            pMontant1.innerHTML="0&nbsp;"
             pMontant2.innerHTML="190&nbsp;"
             pMontant3.innerHTML="290&nbsp;"
             pMontant4.innerHTML="490&nbsp;"
