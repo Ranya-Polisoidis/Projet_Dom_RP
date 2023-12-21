@@ -642,6 +642,45 @@ a:hover {
   color: white;
 }
 
+.divBtnMonthYearSection7 {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+.divCercle {
+  background-color: rgba(86, 58, 250, 0.709);
+  width: 4.3rem;
+  height: 2.3rem;
+  border-radius: 40px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cercle {
+  background-color: white;
+  width: 1.7rem;
+  height: 1.7rem;
+  border-radius: 80%;
+  position: absolute;
+  left: 0rem;
+  margin-left: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.pMonthBtnSection7 {
+  color: rgba(86, 58, 250, 0.709);
+  margin-right: 10px;
+}
+
+.pYearBtnSection7 {
+  color: rgb(142, 144, 150);
+  margin-left: 10px;
+}
+
 /* ########################################################################################################################################################################################## */
 /* Section 8 */
 /* ########################################################################################################################################################################################### */

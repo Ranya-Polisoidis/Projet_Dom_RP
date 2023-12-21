@@ -2,6 +2,31 @@
 /* Section 7 (js) */
 /* ########################################################################################################################################################################################### */
 
+
+// Bouton Month et Year (animation)
+let divCercle=document.querySelector(".divCercle")
+let cercle=document.querySelector(".cercle")
+
+let pMonthBtnSection7=document.querySelector(".pMonthBtnSection7")
+let pYearBtnSection7=document.querySelector(".pYearBtnSection7")
+
+divCercle.addEventListener("click", function () {
+    cercle.style.left=="2rem"
+    pMonthBtnSection7.style.color="rgb(142, 144, 150)"
+    pYearBtnSection7.style.color="rgba(86, 58, 250, 0.9)"
+    if(cercle.style.left=="2rem"){
+        cercle.style.left="0rem"
+        pMonthBtnSection7.style.color="rgba(86, 58, 250, 0.9)"
+        pYearBtnSection7.style.color="rgb(142, 144, 150)"
+    } else {
+        cercle.style.left="2rem"
+        pMonthBtnSection7.style.color="rgb(142, 144, 150)"
+        pYearBtnSection7.style.color="rgba(86, 58, 250, 0.9)"
+    }
+})
+
+
+// Changement de mon contenue des montants
 let btnMonthYearSection7=document.querySelector(".btnMonthYearSection7")
 
 let pMontantAllSection7 = document.querySelectorAll('.pMontantAllSection7')
@@ -55,5 +80,9 @@ btnMonthYearSection7.addEventListener("click", function () {
     })
 })
 
-export {btnMonthYearSection7}
+
+export {divCercle,btnMonthYearSection7}
+
+
+
 
