@@ -17,7 +17,7 @@
 }
 
 .divSurlignerh1Mixin {
-  border: 2px solid rgb(110, 98, 242);
+  border: 2px solid rgba(86, 58, 250, 0.9);
   width: 5%;
   margin-right: 600px;
   margin-left: 600px;
@@ -191,8 +191,8 @@ a:hover {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: rgb(110, 98, 242);
-  border: 2px solid rgb(110, 98, 242);
+  color: rgba(86, 58, 250, 0.9);
+  border: 2px solid rgba(86, 58, 250, 0.9);
   border-radius: 50%;
   margin-right: 10px;
 }
@@ -275,14 +275,6 @@ a:hover {
   width: 100%;
 }
 
-.marginRightSection3 {
-  margin-right: 25px;
-}
-
-.marginBottomSection3 {
-  margin-bottom: 25px;
-}
-
 .iconeGuitar {
   color: rgb(78, 181, 255);
 }
@@ -317,6 +309,14 @@ a:hover {
   font-size: 17px;
 }
 
+.marginRightSection3 {
+  margin-right: 25px;
+}
+
+.marginBottomSection3 {
+  margin-bottom: 25px;
+}
+
 /* ########################################################################################################################################################################################## */
 /* Section 4 */
 /* ########################################################################################################################################################################################### */
@@ -331,7 +331,7 @@ a:hover {
 }
 
 .iconeSection4 {
-  color: rgb(110, 98, 242);
+  color: rgba(86, 58, 250, 0.9);
   font-size: 50px;
   margin-right: 20px;
 }
@@ -701,6 +701,135 @@ a:hover {
   padding-bottom: 2px;
   padding-top: 2px;
   border-radius: 50%;
+}
+
+/* ########################################################################################################################################################################################## */
+/* Section 9 */
+/* ########################################################################################################################################################################################### */
+.divSection9 {
+  background-color: rgb(249, 248, 255);
+}
+
+.div1Section9 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.div1SoloSection9 {
+  text-align: center;
+  background-color: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.iconeAllSection9 {
+  color: rgba(86, 58, 250, 0.9);
+}
+
+.h2AllSection9 {
+  color: rgb(36, 37, 38);
+}
+
+.pAllSection9 {
+  color: rgb(96, 97, 99);
+}
+
+.div2Section9 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.googelMapSection9 {
+  border: none;
+  height: 355px;
+  width: 625px;
+}
+
+.divFormsSection9 {
+  background-color: white;
+  padding-right: 28px;
+  padding-left: 28px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.divNameEmailSection9 {
+  display: flex;
+}
+
+.inputAllSection9 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  border-radius: 5px;
+  border: 1px solid grey;
+  color: rgb(96, 97, 99);
+  outline: none;
+}
+
+.divSendMessageSection9 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btnSendMessageSection9 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  border-radius: 5px;
+  width: 130px;
+  height: 35px;
+  display: flex;
+  font-size: 11px;
+  background: linear-gradient(45deg, rgba(86, 58, 250, 0.9) 0%, rgba(116, 15, 214, 0.9) 100%), url("lien de l'image") center center no-repeat;
+  border: none;
+}
+
+.h2BtnSendMessageSection9 {
+  color: rgb(255, 255, 255);
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.paddingLRAdressSection9 {
+  padding-left: 235px;
+  padding-right: 235px;
+}
+
+.paddingLREmailEtPhoneSection9 {
+  padding-left: 90px;
+  padding-right: 90px;
+}
+
+.paddingBottomFormsSection9 {
+  padding-bottom: 15px;
+}
+
+.widthNameEtEmailSection9 {
+  width: 253px;
+}
+
+.marginRightNameSection9 {
+  margin-right: 10px;
+}
+
+.marginLeftEmailSection9 {
+  margin-left: 10px;
+}
+
+.widthSubjectEtMessageSection9 {
+  width: 540px;
+}
+
+.limiteMessageSection9 {
+  max-width: 540px;
+  max-height: 130px;
+  min-width: 540px;
+  min-height: 130px;
 }
 
 /*!

@@ -1,0 +1,149 @@
+/* ########################################################################################################################################################################################## */
+/* Section 9 */
+/* ########################################################################################################################################################################################### */
+
+.divSection9{
+    background-color: rgb(249, 248, 255);
+}
+
+// div 1 section 9 
+.div1Section9{ // j'ai rajouter marginBottomMixin 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.div1SoloSection9{
+    text-align: center;
+    background-color: white;
+    padding-top: 20px;
+    padding-bottom:20px;
+}
+
+.iconeAllSection9{
+    color:rgba(86, 58, 250, 0.9);
+}
+.h2AllSection9{
+    color:rgb(36, 37, 38);
+}
+.pAllSection9{
+    color:rgb(96, 97, 99);
+}
+
+// div 2 section 9
+.div2Section9{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.divGoogleMapSection9{
+
+}
+
+.googelMapSection9{
+    // width: 50%;
+    // height: 320px;
+    
+    border: none;
+    height: 355px;
+    width:625px;
+}
+
+.divFormsSection9{
+    background-color: white;
+    padding-right: 28px;
+    padding-left: 28px;
+
+    padding-top: 25px;
+    padding-bottom: 25px; 
+}
+
+.divNameEmailSection9{
+    display: flex;
+}
+
+.inputAllSection9{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    border-radius: 5px;
+    border:1px solid grey;
+    color:rgb(96, 97, 99);
+    outline: none;
+    // modif dans variante cibler 
+}
+
+.divSendMessageSection9{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btnSendMessageSection9 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    text-decoration: none;
+    border-radius: 5px;
+    width: 130px;
+    height: 35px;
+    display: flex;
+    font-size: 11px;
+
+    background: linear-gradient(45deg, rgba(86, 58, 250, 0.9) 0%, rgba(116, 15, 214, 0.9) 100%), url("lien de l'image") center center no-repeat;
+    border: none;
+}
+
+.h2BtnSendMessageSection9 {
+    color: rgba(255, 255, 255);
+    font-size: 12px;
+    font-weight: bold;
+}
+
+
+// Variante
+
+// div adress, email & phone
+.paddingLRAdressSection9{
+    padding-left: 235px; 
+    padding-right: 235px;
+}
+
+.paddingLREmailEtPhoneSection9{
+    padding-left: 90px;
+    padding-right: 90px;
+}
+
+// div forms
+.paddingBottomFormsSection9{ 
+    padding-bottom: 15px;
+}
+
+// ! ici tjr mettre la taille dans l'input pour que le texte prend aussi (si je mets dans la div qui le contient le texte prendra pas de taille) 
+.widthNameEtEmailSection9{
+    width: 253px;
+}
+
+.marginRightNameSection9{
+    margin-right: 10px;
+}
+
+.marginLeftEmailSection9{
+    margin-left: 10px;
+}
+
+.widthSubjectEtMessageSection9{
+    width: 540px;
+}
+
+.limiteMessageSection9{ // j'ai enlever le cols et rows par défaut (dans ma balise html)
+    max-width: 540px;
+    max-height: 130px;
+    min-width: 540px;
+    min-height: 130px;
+}
+
+
+
