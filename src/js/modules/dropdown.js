@@ -83,37 +83,8 @@ ulLien.style.listStyleType="none"
 ulLien.style.position="absolute" // pour pas qu'il sois dans la nav (car je les crées dedsans (ce qui est juste))
 ulLien.style.paddingTop="50px"
 
+ulLien.style.textAlign="center"
 
-// ulLien.style.display="flex"
-// ulLien.style.flexDirection="column"
-// ulLien.style.alignItems="center"
-// ulLien.style.justifyContent="center"
-
-
-
-// aLink1.style.textDecoration="none"
-// aLink2
-// aLink3
-// aLink4
-
-
-// .ul{
-//     font-size: 25px;
-//     list-style-type: none;
-//     display: flex;
-//     align-items: center;
-//     justify-content: space-around;
-// }
-
-// a{
-//     text-decoration: none;
-//     color: rgba(255, 255, 255, 0.882);
-// }
-
-// a:hover{
-//     text-decoration: none;
-//     color:rgba(255, 255, 255, 0.292)
-// }
 
 
 ulLien.style.display="none";

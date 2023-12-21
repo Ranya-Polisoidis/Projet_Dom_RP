@@ -27,7 +27,7 @@ divCercle.addEventListener("click", function () {
 
 
 // Changement de mon contenue des montants
-let btnMonthYearSection7=document.querySelector(".btnMonthYearSection7")
+let btnMonthYearSection7=document.querySelectorAll(".btnMonthYearSection7")[1]
 
 let pMontantAllSection7 = document.querySelectorAll('.pMontantAllSection7')
 let pMontant1=pMontantAllSection7[0]

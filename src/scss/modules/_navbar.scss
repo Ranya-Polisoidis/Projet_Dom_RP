@@ -4,7 +4,6 @@
 
 
 .navHeader{
-
     // Important !
     // Avant tout enlever margin et padding en 0 dans mon ul (en dessous)
     // Pour modifier parfaitement!
@@ -23,8 +22,6 @@
     width: 100%;
     /* width:100vw; */ /* ! lui ? */
 
-
-    // background-color:rgba(60, 48, 192, 0.909);
     background: linear-gradient(45deg, rgba(86, 58, 250, 0.9) 0%, rgba(116, 15, 214, 0.9) 100%), url("lien de l'image") center center no-repeat;
 }
 
@@ -64,5 +61,54 @@ a:hover{
 .iconeDropDownNavHeader{
     font-size: 15px;
 }
+
+
+
+
+// Mon bouton jour & nuit 
+
+.divBtnJourNuitSection7{
+    display: flex;
+    align-items: center; 
+    flex-direction: row;
+}
+
+.divCercle2{
+    background-color: rgba(86, 58,250, 0.709);
+    width: 4.3rem;
+    height: 2.3rem;
+    border-radius: 40px;
+    position: relative;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cercle2{
+    background-color: white;
+    width: 1.7rem;
+    height: 1.7rem;
+    border-radius: 80%;
+    position: absolute;
+    left: 0rem;
+    // left: 2rem; // qui deviendra après
+    margin-left: 5px;
+    margin-top: 5px;
+    margin-bottom:5px;
+}
+
+.pJourBtnSection7{
+    color:rgba(86, 58,250, 0.709);
+    margin-right: 10px;
+}
+
+.pNuitBtnSection7{
+    color:rgb(142, 144, 150);
+    margin-left: 10px;
+}
+
+// btnMonthYearSection7 // utiliser dans
+
 
 

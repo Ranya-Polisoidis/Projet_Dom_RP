@@ -20,3 +20,5 @@ import {btnAccordion1,btnAccordion2,btnAccordion3,btnAccordion4,btnAccordion5} f
 
 import  {btnFixeFooter} from "./modules/btnFixe.js";
 
+import  {divCercle2,btnMonthYearSection7Deuxième} from "./modules/darkmode.js";
+
