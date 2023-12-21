@@ -48,15 +48,28 @@ btnAccordion1.addEventListener("click", function () {
         pQuestion1.style.color="rgba(86, 58, 250, 0.9)"
         iconeFleche1.style.color="rgba(86, 58, 250, 0.9)"
 
-        pReponses2.style.display = "none"
-        pReponses3.style.display = "none"
-        pReponses4.style.display = "none"
-        pReponses5.style.display = "none"
+        pReponses2.style.display="none"
+        iconeFleche2.classList="iconeFlecheAllSection8 fa-solid fa-angle-down"
+        pQuestion2.style.color="rgb(36, 37, 38)"
+        iconeFleche2.style.color="rgb(36, 37, 38)"
+        pReponses3.style.display="none"
+        iconeFleche3.classList="iconeFlecheAllSection8 fa-solid fa-angle-down"
+        pQuestion3.style.color="rgb(36, 37, 38)"
+        iconeFleche3.style.color="rgb(36, 37, 38)"
+        pReponses4.style.display="none"
+        iconeFleche4.classList="iconeFlecheAllSection8 fa-solid fa-angle-down"
+        pQuestion4.style.color="rgb(36, 37, 38)"
+        iconeFleche4.style.color="rgb(36, 37, 38)"
+        pReponses5.style.display="none"
+        iconeFleche5.classList="iconeFlecheAllSection8 fa-solid fa-angle-down"
+        pQuestion5.style.color="rgb(36, 37, 38)"
+        iconeFleche5.style.color="rgb(36, 37, 38)"
     } else {
         pReponses1.style.display="none"
         iconeFleche1.classList="iconeFlecheAllSection8 fa-solid fa-angle-down"
         pQuestion1.style.color="rgb(36, 37, 38)"
         iconeFleche1.style.color="rgb(36, 37, 38)"
+
     }
 })
 
@@ -67,10 +80,22 @@ btnAccordion2.addEventListener("click", function () {
         pQuestion2.style.color="rgba(86, 58, 250, 0.9)"
         iconeFleche2.style.color="rgba(86, 58, 250, 0.9)"
 
-        pReponses1.style.display = "none"
-        pReponses3.style.display = "none"
-        pReponses4.style.display = "none"
-        pReponses5.style.display = "none"
+        pReponses1.style.display="none"
+        iconeFleche1.classList="iconeFlecheAllSection8 fa-solid fa-angle-down"
+        pQuestion1.style.color="rgb(36, 37, 38)"
+        iconeFleche1.style.color="rgb(36, 37, 38)"
+        pReponses3.style.display="none"
+        iconeFleche3.classList="iconeFlecheAllSection8 fa-solid fa-angle-down"
+        pQuestion3.style.color="rgb(36, 37, 38)"
+        iconeFleche3.style.color="rgb(36, 37, 38)"
+        pReponses4.style.display="none"
+        iconeFleche4.classList="iconeFlecheAllSection8 fa-solid fa-angle-down"
+        pQuestion4.style.color="rgb(36, 37, 38)"
+        iconeFleche4.style.color="rgb(36, 37, 38)"
+        pReponses5.style.display="none"
+        iconeFleche5.classList="iconeFlecheAllSection8 fa-solid fa-angle-down"
+        pQuestion5.style.color="rgb(36, 37, 38)"
+        iconeFleche5.style.color="rgb(36, 37, 38)"
     } else {
         pReponses2.style.display="none"
         iconeFleche2.classList="iconeFlecheAllSection8 fa-solid fa-angle-down"
@@ -86,10 +111,22 @@ btnAccordion3.addEventListener("click", function () {
         pQuestion3.style.color="rgba(86, 58, 250, 0.9)"
         iconeFleche3.style.color="rgba(86, 58, 250, 0.9)"
 
-        pReponses1.style.display = "none"
-        pReponses2.style.display = "none"
-        pReponses4.style.display = "none"
-        pReponses5.style.display = "none"
+        pReponses1.style.display="none"
+        iconeFleche1.classList="iconeFlecheAllSection8 fa-solid fa-angle-down"
+        pQuestion1.style.color="rgb(36, 37, 38)"
+        iconeFleche1.style.color="rgb(36, 37, 38)"
+        pReponses2.style.display="none"
+        iconeFleche2.classList="iconeFlecheAllSection8 fa-solid fa-angle-down"
+        pQuestion2.style.color="rgb(36, 37, 38)"
+        iconeFleche2.style.color="rgb(36, 37, 38)"
+        pReponses4.style.display="none"
+        iconeFleche4.classList="iconeFlecheAllSection8 fa-solid fa-angle-down"
+        pQuestion4.style.color="rgb(36, 37, 38)"
+        iconeFleche4.style.color="rgb(36, 37, 38)"
+        pReponses5.style.display="none"
+        iconeFleche5.classList="iconeFlecheAllSection8 fa-solid fa-angle-down"
+        pQuestion5.style.color="rgb(36, 37, 38)"
+        iconeFleche5.style.color="rgb(36, 37, 38)"
     } else {
         pReponses3.style.display="none"
         iconeFleche3.classList="iconeFlecheAllSection8 fa-solid fa-angle-down"
@@ -105,10 +142,22 @@ btnAccordion4.addEventListener("click", function () {
         pQuestion4.style.color="rgba(86, 58, 250, 0.9)"
         iconeFleche4.style.color="rgba(86, 58, 250, 0.9)"
 
-        pReponses1.style.display = "none"
-        pReponses2.style.display = "none"
-        pReponses3.style.display = "none"
-        pReponses5.style.display = "none"
+        pReponses1.style.display="none"
+        iconeFleche1.classList="iconeFlecheAllSection8 fa-solid fa-angle-down"
+        pQuestion1.style.color="rgb(36, 37, 38)"
+        iconeFleche1.style.color="rgb(36, 37, 38)"
+        pReponses2.style.display="none"
+        iconeFleche2.classList="iconeFlecheAllSection8 fa-solid fa-angle-down"
+        pQuestion2.style.color="rgb(36, 37, 38)"
+        iconeFleche2.style.color="rgb(36, 37, 38)"
+        pReponses3.style.display="none"
+        iconeFleche3.classList="iconeFlecheAllSection8 fa-solid fa-angle-down"
+        pQuestion3.style.color="rgb(36, 37, 38)"
+        iconeFleche3.style.color="rgb(36, 37, 38)"
+        pReponses5.style.display="none"
+        iconeFleche5.classList="iconeFlecheAllSection8 fa-solid fa-angle-down"
+        pQuestion5.style.color="rgb(36, 37, 38)"
+        iconeFleche5.style.color="rgb(36, 37, 38)"
     } else {
         pReponses4.style.display="none"
         iconeFleche4.classList="iconeFlecheAllSection8 fa-solid fa-angle-down"
@@ -123,11 +172,23 @@ btnAccordion5.addEventListener("click", function () {
         iconeFleche5.classList="iconeFlecheAllSection8 fa-solid fa-angle-up"
         pQuestion5.style.color="rgba(86, 58, 250, 0.9)"
         iconeFleche5.style.color="rgba(86, 58, 250, 0.9)"
-
-        pReponses1.style.display = "none"
-        pReponses2.style.display = "none"
-        pReponses3.style.display = "none"
-        pReponses4.style.display = "none"
+        
+        pReponses1.style.display="none"
+        iconeFleche1.classList="iconeFlecheAllSection8 fa-solid fa-angle-down"
+        pQuestion1.style.color="rgb(36, 37, 38)"
+        iconeFleche1.style.color="rgb(36, 37, 38)"
+        pReponses2.style.display="none"
+        iconeFleche2.classList="iconeFlecheAllSection8 fa-solid fa-angle-down"
+        pQuestion2.style.color="rgb(36, 37, 38)"
+        iconeFleche2.style.color="rgb(36, 37, 38)"
+        pReponses3.style.display="none"
+        iconeFleche3.classList="iconeFlecheAllSection8 fa-solid fa-angle-down"
+        pQuestion3.style.color="rgb(36, 37, 38)"
+        iconeFleche3.style.color="rgb(36, 37, 38)"
+        pReponses4.style.display="none"
+        iconeFleche4.classList="iconeFlecheAllSection8 fa-solid fa-angle-down"
+        pQuestion4.style.color="rgb(36, 37, 38)"
+        iconeFleche4.style.color="rgb(36, 37, 38)"
     } else {
         pReponses5.style.display="none"
         iconeFleche5.classList="iconeFlecheAllSection8 fa-solid fa-angle-down"
@@ -135,5 +196,13 @@ btnAccordion5.addEventListener("click", function () {
         iconeFleche5.style.color="rgb(36, 37, 38)"
     }
 })
+
+
+
+
+
+
+
+
 
 export {btnAccordion1,btnAccordion2,btnAccordion3,btnAccordion4,btnAccordion5}

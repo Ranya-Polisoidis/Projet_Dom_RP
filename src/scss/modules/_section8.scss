@@ -7,7 +7,6 @@
 }
 
 .divAllAccordion{
-
     padding-right: 110px;
     padding-left: 110px; 
 }
@@ -29,18 +28,32 @@
     background-color: white;
 }
 
-// svgFleche
-.iconeFlecheAllSection8{ 
-    padding-left: 590px;
+.divQuestionSection8{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
+.iconeInterrogationAllSection8{
+    color:rgba(86, 58, 250, 0.9);
+    border:2px solid rgba(86, 58, 250, 0.9);
+    font-size: 15px;
+    padding-left: 3px;
+    padding-right: 3px;
+    padding-bottom: 2px;
+    padding-top: 2px;
+
+    border-radius: 50%;
+}
 
 .pQuestionAllSection8{
     color:rgb(36, 37, 38);
     font-size: 18px;
     margin:0;
-}
 
+    width: 900px; // pas de padding (dés que j'ai un texte qui va et il peu varier dans sa longeure donc pour qu'il accepte toute longeure width)
+    // si rien et que un p il s'adaptera tout seul et prend toute la div (sauf si j'ai mis un padding forcément) mais comme j'ai mis des infos dedans en plus et que je suis dans une div en (between je force à lui prendre une taille)
+}
 
 .pReponsesAllSection8{
     color:rgb(96, 97, 99);
@@ -59,17 +72,4 @@
 .surlignementBlancSection8{
     border:2px solid white;
 }
-
-.iconeInterrogationAllSection8{
-    color:rgba(86, 58, 250, 0.9);
-    border:2px solid rgba(86, 58, 250, 0.9);
-    font-size: 15px;
-    padding-left: 3px;
-    padding-right: 3px;
-    padding-bottom: 2px;
-    padding-top: 2px;
-
-    border-radius: 50%;
-}
-
 
