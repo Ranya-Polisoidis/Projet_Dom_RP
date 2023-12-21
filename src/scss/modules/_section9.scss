@@ -147,3 +147,56 @@
 
 
 
+
+// 
+// /* --> Media Queries <-- */
+
+/* Laptop L */
+@media screen and (min-width:1440px) {
+    // Pas besoins de le faire CAR il sagit de ma résolution d'écrans
+}
+
+
+/* Laptop */
+@media screen and (min-width:600px) and (max-width:1024px) {
+
+    .div1Section9{
+        // flex-wrap: wrap;
+        // justify-content: space-between;
+    }
+    .div1SoloSection9{
+        
+    }
+    .paddingLRAdressSection9{
+        padding-left: 70px; 
+        padding-right: 70px;
+    }
+    .paddingLREmailEtPhoneSection9{
+        // padding: 0;
+        padding-left: 65px;
+        padding-right: 65px; 
+    }
+    .div2Section9{
+        flex-wrap: wrap;
+    }
+    .googelMapSection9{
+        width:845px;
+    }
+    .divFormsSection9{
+        width:845px;
+    }
+
+}
+
+
+/* Tablet */
+@media screen and (min-width:600px) and (max-width:768px) {
+
+
+}
+
+/* Mobile L */
+@media screen and (min-width:320px) and (max-width:425px) {
+
+}
+// 

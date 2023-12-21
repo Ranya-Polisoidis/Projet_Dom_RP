@@ -83,3 +83,37 @@
     width: 610px;
 }
 
+
+// 
+// /* --> Media Queries <-- */
+
+/* Laptop L */
+@media screen and (min-width:1440px) {
+    // Pas besoins de le faire CAR il sagit de ma résolution d'écrans
+}
+
+
+/* Laptop */
+@media screen and (min-width:600px) and (max-width:1024px) {
+
+    .imgSection1{
+        width: 380px;
+    }
+    .divSection1{
+        align-items: center;
+    }
+
+}
+
+
+/* Tablet */
+@media screen and (min-width:600px) and (max-width:768px) {
+
+
+}
+
+/* Mobile L */
+@media screen and (min-width:320px) and (max-width:425px) {
+
+}
+// 
