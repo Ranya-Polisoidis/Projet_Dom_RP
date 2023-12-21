@@ -17,7 +17,7 @@ let aLink1=document.createElement("a")
 let texteLink1=document.createTextNode("Link 1")
 aLink1.setAttribute("href","")
 // a modifier
-aLink1.href="#rien"
+aLink1.href="#rienDuLink1"
 aLink1.appendChild(texteLink1)
 liLink1.appendChild(aLink1)
 
@@ -31,7 +31,7 @@ let aLink2=document.createElement("a")
 let texteLink2=document.createTextNode("Link 2")
 aLink2.setAttribute("href","")
 // a modifier
-aLink2.href="#rien"
+aLink2.href="#rienDuLink2"
 aLink2.appendChild(texteLink2)
 liLink2.appendChild(aLink2)
 
@@ -45,7 +45,7 @@ let aLink3=document.createElement("a")
 let texteLink3=document.createTextNode("Link 3")
 aLink3.setAttribute("href","")
 // a modifier
-aLink3.href="#rien"
+aLink3.href="#rienDuLink3"
 aLink3.appendChild(texteLink3)
 liLink3.appendChild(aLink3)
 
@@ -59,7 +59,7 @@ let aLink4=document.createElement("a")
 let texteLink4=document.createTextNode("Link 4")
 aLink4.setAttribute("href","")
 // a modifier
-aLink4.href="#rien"
+aLink4.href="#rienDuLink4"
 aLink4.appendChild(texteLink4)
 liLink4.appendChild(aLink4)
 

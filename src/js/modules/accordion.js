@@ -6,6 +6,7 @@
 let btnAccordionAllSection8=document.querySelectorAll(".btnAccordionAllSection8")
 
 let btnAccordion1=btnAccordionAllSection8[0]
+console.log(btnAccordion1);
 let btnAccordion2=btnAccordionAllSection8[1]
 let btnAccordion3=btnAccordionAllSection8[2]
 let btnAccordion4=btnAccordionAllSection8[3]
@@ -46,6 +47,11 @@ btnAccordion1.addEventListener("click", function () {
         iconeFleche1.classList="iconeFlecheAllSection8 fa-solid fa-angle-up"
         pQuestion1.style.color="rgba(86, 58, 250, 0.9)"
         iconeFleche1.style.color="rgba(86, 58, 250, 0.9)"
+
+        pReponses2.style.display = "none"
+        pReponses3.style.display = "none"
+        pReponses4.style.display = "none"
+        pReponses5.style.display = "none"
     } else {
         pReponses1.style.display="none"
         iconeFleche1.classList="iconeFlecheAllSection8 fa-solid fa-angle-down"
@@ -60,6 +66,11 @@ btnAccordion2.addEventListener("click", function () {
         iconeFleche2.classList="iconeFlecheAllSection8 fa-solid fa-angle-up"
         pQuestion2.style.color="rgba(86, 58, 250, 0.9)"
         iconeFleche2.style.color="rgba(86, 58, 250, 0.9)"
+
+        pReponses1.style.display = "none"
+        pReponses3.style.display = "none"
+        pReponses4.style.display = "none"
+        pReponses5.style.display = "none"
     } else {
         pReponses2.style.display="none"
         iconeFleche2.classList="iconeFlecheAllSection8 fa-solid fa-angle-down"
@@ -74,6 +85,11 @@ btnAccordion3.addEventListener("click", function () {
         iconeFleche3.classList="iconeFlecheAllSection8 fa-solid fa-angle-up"
         pQuestion3.style.color="rgba(86, 58, 250, 0.9)"
         iconeFleche3.style.color="rgba(86, 58, 250, 0.9)"
+
+        pReponses1.style.display = "none"
+        pReponses2.style.display = "none"
+        pReponses4.style.display = "none"
+        pReponses5.style.display = "none"
     } else {
         pReponses3.style.display="none"
         iconeFleche3.classList="iconeFlecheAllSection8 fa-solid fa-angle-down"
@@ -88,6 +104,11 @@ btnAccordion4.addEventListener("click", function () {
         iconeFleche4.classList="iconeFlecheAllSection8 fa-solid fa-angle-up"
         pQuestion4.style.color="rgba(86, 58, 250, 0.9)"
         iconeFleche4.style.color="rgba(86, 58, 250, 0.9)"
+
+        pReponses1.style.display = "none"
+        pReponses2.style.display = "none"
+        pReponses3.style.display = "none"
+        pReponses5.style.display = "none"
     } else {
         pReponses4.style.display="none"
         iconeFleche4.classList="iconeFlecheAllSection8 fa-solid fa-angle-down"
@@ -102,6 +123,11 @@ btnAccordion5.addEventListener("click", function () {
         iconeFleche5.classList="iconeFlecheAllSection8 fa-solid fa-angle-up"
         pQuestion5.style.color="rgba(86, 58, 250, 0.9)"
         iconeFleche5.style.color="rgba(86, 58, 250, 0.9)"
+
+        pReponses1.style.display = "none"
+        pReponses2.style.display = "none"
+        pReponses3.style.display = "none"
+        pReponses4.style.display = "none"
     } else {
         pReponses5.style.display="none"
         iconeFleche5.classList="iconeFlecheAllSection8 fa-solid fa-angle-down"
