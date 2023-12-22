@@ -143,6 +143,38 @@
 /* Mobile L */
 @media screen and (min-width:320px) and (max-width:425px) {
 
+    .divSection1 { // si je veux afficher l'image
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    .imgSection1{
+        display: none;
+    }
+    .divSection1{
+        align-items: center;
+    }
+    .h1Section1{
+        font-size: 35px;
+    }
+    .h3Section1{
+        font-size: 20px;
+    }
+    .pAllSection1{
+        font-size: 21px;
+    }
+    .divResoltuionbtnReadMoreSection1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .btnReadMoreSection1{
+        justify-content: center;
+        padding: 0;
+    }
+
+
 }
 // 
 

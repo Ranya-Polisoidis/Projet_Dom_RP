@@ -71,6 +71,17 @@
   }
 }
 /* Mobile L */
+@media screen and (min-width: 320px) and (max-width: 425px) {
+  .divSurlignerh1Mixin {
+    margin-left: 180px;
+  }
+  .divMixin {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+}
 /* ########################################################################################################################################################################################### */
 /* Body */
 /* ########################################################################################################################################################################################### */
@@ -268,7 +279,6 @@ a:hover {
   }
   .h2Banniere {
     font-size: 35px;
-    color: rgb(255, 255, 255);
   }
   .div1Baniere {
     padding-right: 120px;
@@ -283,6 +293,32 @@ a:hover {
   }
 }
 /* Mobile L */
+@media screen and (min-width: 320px) and (max-width: 425px) {
+  .divGeneraleBanniere {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .imgBanniere {
+    width: 280px;
+    display: none;
+  }
+  .h2Banniere {
+    font-size: 25px;
+  }
+  .div1Baniere {
+    padding-right: 0;
+  }
+  .divBtnGetStartedEtBtnJourNuit {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-content: stretch;
+    flex-direction: column;
+  }
+}
 /* ########################################################################################################################################################################################## */
 /* Section 1 */
 /* ########################################################################################################################################################################################### */
@@ -393,6 +429,38 @@ a:hover {
   }
 }
 /* Mobile L */
+@media screen and (min-width: 320px) and (max-width: 425px) {
+  .divSection1 {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+  .imgSection1 {
+    display: none;
+  }
+  .divSection1 {
+    align-items: center;
+  }
+  .h1Section1 {
+    font-size: 35px;
+  }
+  .h3Section1 {
+    font-size: 20px;
+  }
+  .pAllSection1 {
+    font-size: 21px;
+  }
+  .divResoltuionbtnReadMoreSection1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .btnReadMoreSection1 {
+    justify-content: center;
+    padding: 0;
+  }
+}
 /* ########################################################################################################################################################################################## */
 /* Section 2 */
 /* ########################################################################################################################################################################################### */
@@ -438,6 +506,21 @@ a:hover {
   }
 }
 /* Mobile L */
+@media screen and (min-width: 320px) and (max-width: 425px) {
+  .divSection2 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .h1AllSection2 {
+    font-size: 22px;
+  }
+  .pAllSection2 {
+    font-size: 10px;
+  }
+  .divSection2 {
+    justify-content: space-evenly;
+  }
+}
 /* ########################################################################################################################################################################################## */
 /* Section 3 */
 /* ########################################################################################################################################################################################### */
@@ -569,6 +652,23 @@ a:hover {
   }
 }
 /* Mobile L */
+@media screen and (min-width: 320px) and (max-width: 425px) {
+  .imgSection4 {
+    display: none;
+  }
+  .div2Section4 {
+    align-items: center;
+  }
+  .iconeSection4 {
+    font-size: 50px;
+  }
+  .h3AllSection4 {
+    font-size: 20px;
+  }
+  .pAllSection4 {
+    font-size: 20px;
+  }
+}
 /* ########################################################################################################################################################################################## */
 /* Section 5 */
 /* ########################################################################################################################################################################################### */
@@ -692,6 +792,20 @@ a:hover {
   }
 }
 /* Mobile L */
+@media screen and (min-width: 320px) and (max-width: 425px) {
+  .divAllTemoignageTexteSection5 {
+    width: 315px;
+  }
+  .divCarouselBTN {
+    margin-top: 30px;
+  }
+  .divAllSection5 {
+    flex-wrap: wrap;
+  }
+  .divTemoignageProfileEntierSection5 {
+    padding-bottom: 30px;
+  }
+}
 /* ########################################################################################################################################################################################## */
 /* Section 6 */
 /* ########################################################################################################################################################################################### */
@@ -792,6 +906,18 @@ a:hover {
   }
 }
 /* Mobile L */
+@media screen and (min-width: 320px) and (max-width: 425px) {
+  .imgSection6 {
+    width: 190px;
+    height: 140px;
+  }
+  .divAllSection6 {
+    flex-wrap: wrap;
+  }
+  .pAllSection6 {
+    padding-bottom: 30px;
+  }
+}
 /* ########################################################################################################################################################################################## */
 /* Section 7 */
 /* ########################################################################################################################################################################################### */
@@ -971,8 +1097,31 @@ a:hover {
   .divToutLesMontantsSection7 {
     flex-wrap: wrap;
   }
+  .divBtnMonthYearSection7 {
+    justify-content: center;
+  }
 }
 /* Mobile L */
+@media screen and (min-width: 320px) and (max-width: 425px) {
+  .divPartieSoloMontantAllSection7 {
+    width: 410px;
+    margin-bottom: 30px;
+  }
+  .divPartieGrisAllSection7 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .h2BtnBuyNowSection7 {
+    width: 100px;
+  }
+  .divToutLesMontantsSection7 {
+    flex-wrap: wrap;
+  }
+  .divBtnMonthYearSection7 {
+    justify-content: center;
+  }
+}
 /* ########################################################################################################################################################################################## */
 /* Section 8 */
 /* ########################################################################################################################################################################################### */
@@ -1060,13 +1209,30 @@ a:hover {
     padding-left: 15px;
   }
   .pQuestionAllSection8 {
-    color: rgb(36, 37, 38);
     font-size: 16px;
     margin: 0;
     width: 440px;
   }
 }
 /* Mobile L */
+@media screen and (min-width: 320px) and (max-width: 425px) {
+  .divAllAccordion {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  .pQuestionAllSection8 {
+    font-size: 16px;
+    margin: 0;
+    width: 340px;
+  }
+  .iconeInterrogationAllSection8 {
+    font-size: 15px;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-bottom: 1px;
+    padding-top: 1px;
+  }
+}
 /* ########################################################################################################################################################################################## */
 /* Section 9 */
 /* ########################################################################################################################################################################################### */
@@ -1275,6 +1441,42 @@ a:hover {
   }
 }
 /* Mobile L */
+@media screen and (min-width: 320px) and (max-width: 425px) {
+  .paddingLRAdressSection9 {
+    padding-left: 2px;
+    padding-right: 2px;
+  }
+  .paddingLREmailEtPhoneSection9 {
+    padding-left: 2px;
+    padding-right: 2px;
+  }
+  .div2Section9 {
+    flex-wrap: wrap;
+  }
+  .googelMapSection9 {
+    width: 385px;
+    margin-bottom: 20px;
+  }
+  .divFormsSection9 {
+    width: 545px;
+  }
+  .widthNameEtEmailSection9 {
+    width: 145px;
+  }
+  .marginRightNameSection9 {
+    margin: 0;
+  }
+  .marginLeftEmailSection9 {
+    margin-left: 10px;
+  }
+  .widthSubjectEtMessageSection9 {
+    width: 315px;
+  }
+  .limiteMessageSection9 {
+    max-width: 315px;
+    max-width: 315px;
+  }
+}
 /* ########################################################################################################################################################################################## */
 /* Footer */
 /* ########################################################################################################################################################################################### */
@@ -1430,6 +1632,26 @@ a:hover {
   }
 }
 /* Mobile L */
+@media screen and (min-width: 320px) and (max-width: 425px) {
+  .divIconeAllFooter {
+    height: 15px;
+    width: 15px;
+    font-size: 12px;
+  }
+  .pFooter {
+    font-size: 12px;
+  }
+  .h6Footer {
+    font-size: 15px;
+  }
+  .resolutiondivAllFooterFooter {
+    width: 200px;
+    padding-right: 5px;
+  }
+  .h1Footer {
+    font-size: 20px;
+  }
+}
 /*!
  * Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)

@@ -247,6 +247,41 @@
 
 /* Mobile L */
 @media screen and (min-width:320px) and (max-width:425px) {
-
+    .paddingLRAdressSection9{
+        padding-left: 2px; 
+        padding-right: 2px;
+    }
+    .paddingLREmailEtPhoneSection9{
+        padding-left: 2px;
+        padding-right: 2px; 
+    }
+    .div2Section9{
+        flex-wrap: wrap;
+    }
+    .googelMapSection9{
+        width:385px;
+        margin-bottom: 20px;
+    }
+    .divFormsSection9{
+        width:545px;
+    }
+    // div forms
+    // ! ici tjr mettre la taille dans l'input pour que le texte prend aussi (si je mets dans la div qui le contient le texte prendra pas de taille) 
+    .widthNameEtEmailSection9{
+        width: 145px;
+    }
+    .marginRightNameSection9{
+        margin:0
+    }
+    .marginLeftEmailSection9{
+        margin-left: 10px;
+    }
+    .widthSubjectEtMessageSection9{
+        width: 315px;
+    }
+    .limiteMessageSection9{ // j'ai enlever le cols et rows par défaut (dans ma balise html)
+        max-width: 315px;
+        max-width: 315px; 
+    }
 }
 // 

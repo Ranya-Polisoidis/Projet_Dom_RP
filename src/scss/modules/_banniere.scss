@@ -145,7 +145,6 @@
     }
     .h2Banniere{
         font-size: 35px;
-        color:rgba(255, 255, 255);
     }
     .div1Baniere{
         padding-right: 120px;
@@ -165,6 +164,31 @@
 /* Mobile L */
 @media screen and (min-width:320px) and (max-width:425px) {
 
+    .divGeneraleBanniere {
+        padding-top: 100px;
+        padding-bottom: 100px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .imgBanniere{
+        width: 280px;
+        display: none;
+    }
+    .h2Banniere{
+        font-size: 25px;
+    }
+    .div1Baniere{
+        padding-right: 0;
+    }
+
+    .divBtnGetStartedEtBtnJourNuit {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        align-content: stretch;
+        flex-direction: column;
+    }
 }
 // 
 

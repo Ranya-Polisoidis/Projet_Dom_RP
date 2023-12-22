@@ -147,5 +147,19 @@
 /* Mobile L */
 @media screen and (min-width:320px) and (max-width:425px) {
 
+    .divAllTemoignageTexteSection5{
+        width: 315px; // ajuster
+    }
+    .divCarouselBTN{
+        margin-top: 30px;
+    }
+
+    .divAllSection5{
+        flex-wrap: wrap;
+    }
+
+    .divTemoignageProfileEntierSection5 {
+        padding-bottom: 30px;
+    }
 }
 // 
