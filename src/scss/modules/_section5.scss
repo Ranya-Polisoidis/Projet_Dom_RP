@@ -111,18 +111,36 @@
 
 
 /* Laptop */
-@media screen and (min-width:600px) and (max-width:1024px) {
+@media screen and (min-width:769px) and (max-width:1024px) {
 
-    .divAllSection5{
-        flex-wrap: wrap;
+    .divAllTemoignageTexteSection5{
+        width: 225px;
+    }
+    .divCarouselBTN{
+        margin-top: 30px;
     }
 
 }
 
 
 /* Tablet */
-@media screen and (min-width:600px) and (max-width:768px) {
+@media screen and (min-width:426px) and (max-width:768px) {
 
+    .divAllTemoignageTexteSection5{
+        width: 565px; // ajuster
+    }
+    .divCarouselBTN{
+        margin-top: 30px;
+    }
+
+    .divAllSection5{
+        flex-wrap: wrap;
+    }
+
+    .divTemoignageProfileEntierSection5 {
+        padding-bottom: 30px;
+    }
+    
 
 }
 

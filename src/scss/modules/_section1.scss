@@ -94,7 +94,7 @@
 
 
 /* Laptop */
-@media screen and (min-width:600px) and (max-width:1024px) {
+@media screen and (min-width:769px) and (max-width:1024px) {
 
     .imgSection1{
         width: 380px;
@@ -102,13 +102,41 @@
     .divSection1{
         align-items: center;
     }
+    .h1Section1{
+        font-size: 25px;
+    }
+    .h3Section1{
+        font-size: 16px;
+    }
+    .pAllSection1{
+        font-size: 15px;
+    }
 
 }
 
 
 /* Tablet */
-@media screen and (min-width:600px) and (max-width:768px) {
-
+@media screen and (min-width:426px) and (max-width:768px) {
+    
+    .divSection1 { // si je veux afficher l'image
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .imgSection1{
+        display: none;
+    }
+    .divSection1{
+        align-items: center;
+    }
+    .h1Section1{
+        font-size: 35px;
+    }
+    .h3Section1{
+        font-size: 20px;
+    }
+    .pAllSection1{
+        font-size: 21px;
+    }
 
 }
 
@@ -117,3 +145,4 @@
 
 }
 // 
+

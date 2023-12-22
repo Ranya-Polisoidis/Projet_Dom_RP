@@ -171,13 +171,8 @@
 
 
 /* Laptop */
-@media screen and (min-width:600px) and (max-width:1024px) {
-    // .divToutLesMontantsSection7{
-    //     flex-wrap: wrap;
-    //     padding-bottom: 20px;
+@media screen and (min-width:769px) and (max-width:1024px) {
 
-    // }
-    // section 8 
     .divPartieSoloMontantAllSection7{
         width: 200px;
     }
@@ -193,9 +188,23 @@
 
 
 /* Tablet */
-@media screen and (min-width:600px) and (max-width:768px) {
+@media screen and (min-width:426px) and (max-width:768px) {
 
-
+    .divPartieSoloMontantAllSection7{
+        width: 310px;
+        margin-bottom: 30px;
+    }
+    .divPartieGrisAllSection7{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .h2BtnBuyNowSection7{
+        width: 100px;
+    }
+    .divToutLesMontantsSection7{
+        flex-wrap: wrap;
+    }
 }
 
 /* Mobile L */

@@ -46,7 +46,7 @@
 
 
 /* Laptop */
-@media screen and (min-width:600px) and (max-width:1024px) {
+@media screen and (min-width:769px) and (max-width:1024px) {
 
     .imgSection4{
         width: 400px;
@@ -54,13 +54,31 @@
     .div2Section4{
         align-items: center;
     }
+    .iconeSection4{
+        font-size: 40px;
+    }
 
 }
 
 
 /* Tablet */
-@media screen and (min-width:600px) and (max-width:768px) {
+@media screen and (min-width:426px) and (max-width:768px) {
 
+    .imgSection4{
+        display: none;
+    }
+    .div2Section4{
+        align-items: center;
+    }
+    .iconeSection4{
+        font-size: 50px;
+    }
+    .h3AllSection4{
+        font-size: 20px;
+    }
+    .pAllSection4{
+        font-size: 20px;
+    }
 
 }
 

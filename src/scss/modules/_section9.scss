@@ -158,21 +158,13 @@
 
 
 /* Laptop */
-@media screen and (min-width:600px) and (max-width:1024px) {
+@media screen and (min-width:769px) and (max-width:1024px) {
 
-    .div1Section9{
-        // flex-wrap: wrap;
-        // justify-content: space-between;
-    }
-    .div1SoloSection9{
-        
-    }
     .paddingLRAdressSection9{
         padding-left: 70px; 
         padding-right: 70px;
     }
     .paddingLREmailEtPhoneSection9{
-        // padding: 0;
         padding-left: 65px;
         padding-right: 65px; 
     }
@@ -181,17 +173,75 @@
     }
     .googelMapSection9{
         width:845px;
+        margin-bottom: 20px;
     }
     .divFormsSection9{
         width:845px;
+    }
+    // div forms
+    .paddingBottomFormsSection9{ 
+        padding-bottom: 15px;
+    }
+    // ! ici tjr mettre la taille dans l'input pour que le texte prend aussi (si je mets dans la div qui le contient le texte prendra pas de taille) 
+    .widthNameEtEmailSection9{
+        width: 373px;
+    }
+    .marginRightNameSection9{
+        margin:0
+    }
+    .marginLeftEmailSection9{
+        margin-left: 10px;
+    }
+    .widthSubjectEtMessageSection9{
+        width: 770px;
+    }
+    .limiteMessageSection9{ // j'ai enlever le cols et rows par défaut (dans ma balise html)
+        max-width: 770px;
+        max-width: 770px;
     }
 
 }
 
 
 /* Tablet */
-@media screen and (min-width:600px) and (max-width:768px) {
-
+@media screen and (min-width:426px) and (max-width:768px) {
+    
+    .paddingLRAdressSection9{
+        padding-left: 30px; 
+        padding-right: 30px;
+    }
+    .paddingLREmailEtPhoneSection9{
+        padding-left: 45px;
+        padding-right: 45px; 
+    }
+    .div2Section9{
+        flex-wrap: wrap;
+    }
+    .googelMapSection9{
+        width:645px;
+        margin-bottom: 20px;
+    }
+    .divFormsSection9{
+        width:845px;
+    }
+    // div forms
+    // ! ici tjr mettre la taille dans l'input pour que le texte prend aussi (si je mets dans la div qui le contient le texte prendra pas de taille) 
+    .widthNameEtEmailSection9{
+        width: 273px;
+    }
+    .marginRightNameSection9{
+        margin:0
+    }
+    .marginLeftEmailSection9{
+        margin-left: 10px;
+    }
+    .widthSubjectEtMessageSection9{
+        width: 570px;
+    }
+    .limiteMessageSection9{ // j'ai enlever le cols et rows par défaut (dans ma balise html)
+        max-width: 570px;
+        max-width: 570px;
+    }
 
 }
 

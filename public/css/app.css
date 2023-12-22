@@ -51,6 +51,26 @@
   color: rgb(255, 255, 255);
 }
 
+/* Laptop L */
+/* Laptop */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .divSurlignerh1Mixin {
+    margin-left: 400px;
+  }
+}
+/* Tablet */
+@media screen and (min-width: 426px) and (max-width: 768px) {
+  .divSurlignerh1Mixin {
+    margin-left: 310px;
+  }
+  .divMixin {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-right: 60px;
+    padding-left: 60px;
+  }
+}
+/* Mobile L */
 /* ########################################################################################################################################################################################### */
 /* Body */
 /* ########################################################################################################################################################################################### */
@@ -117,45 +137,25 @@ a:hover {
   font-size: 15px;
 }
 
-.divBtnJourNuitSection7 {
-  display: flex;
-  align-items: center;
-  flex-direction: row;
+/* Laptop L */
+/* Laptop */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .navHeader {
+    display: none;
+  }
 }
-
-.divCercle2 {
-  background-color: rgba(86, 58, 250, 0.709);
-  width: 4.3rem;
-  height: 2.3rem;
-  border-radius: 40px;
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+/* Tablet */
+@media screen and (min-width: 426px) and (max-width: 768px) {
+  .navHeader {
+    display: none;
+  }
 }
-
-.cercle2 {
-  background-color: white;
-  width: 1.7rem;
-  height: 1.7rem;
-  border-radius: 80%;
-  position: absolute;
-  left: 0rem;
-  margin-left: 5px;
-  margin-top: 5px;
-  margin-bottom: 5px;
+/* Mobile L */
+@media screen and (min-width: 320px) and (max-width: 425px) {
+  .navHeader {
+    display: none;
+  }
 }
-
-.pJourBtnSection7 {
-  color: rgba(86, 58, 250, 0.709);
-  margin-right: 10px;
-}
-
-.pNuitBtnSection7 {
-  color: rgb(142, 144, 150);
-  margin-left: 10px;
-}
-
 /* ########################################################################################################################################################################################## */
 /* Banniere (header) */
 /* ########################################################################################################################################################################################### */
@@ -196,6 +196,93 @@ a:hover {
   width: 450px;
 }
 
+.divBtnJourNuitSection7 {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+.divCercle2 {
+  background-color: rgba(86, 58, 250, 0.709);
+  width: 4.3rem;
+  height: 2.3rem;
+  border-radius: 40px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cercle2 {
+  background-color: white;
+  width: 1.7rem;
+  height: 1.7rem;
+  border-radius: 80%;
+  position: absolute;
+  left: 0rem;
+  margin-left: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.pJourBtnSection7 {
+  color: rgba(86, 58, 250, 0.709);
+  margin-right: 10px;
+}
+
+.pNuitBtnSection7 {
+  color: rgb(142, 144, 150);
+  margin-left: 10px;
+}
+
+/* Laptop L */
+/* Laptop */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .divGeneraleBanniere {
+    padding-top: 200px;
+    padding-bottom: 200px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .imgBanniere {
+    width: 280px;
+  }
+  .h2Banniere {
+    font-size: 45px;
+    color: rgb(255, 255, 255);
+  }
+  .div1Baniere {
+    padding-right: 120px;
+  }
+}
+/* Tablet */
+@media screen and (min-width: 426px) and (max-width: 768px) {
+  .divGeneraleBanniere {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .imgBanniere {
+    width: 280px;
+  }
+  .h2Banniere {
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+  }
+  .div1Baniere {
+    padding-right: 120px;
+  }
+  .divBtnGetStartedEtBtnJourNuit {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-content: stretch;
+    flex-direction: column;
+  }
+}
+/* Mobile L */
 /* ########################################################################################################################################################################################## */
 /* Section 1 */
 /* ########################################################################################################################################################################################### */
@@ -266,15 +353,45 @@ a:hover {
 
 /* Laptop L */
 /* Laptop */
-@media screen and (min-width: 600px) and (max-width: 1024px) {
+@media screen and (min-width: 769px) and (max-width: 1024px) {
   .imgSection1 {
     width: 380px;
   }
   .divSection1 {
     align-items: center;
   }
+  .h1Section1 {
+    font-size: 25px;
+  }
+  .h3Section1 {
+    font-size: 16px;
+  }
+  .pAllSection1 {
+    font-size: 15px;
+  }
 }
 /* Tablet */
+@media screen and (min-width: 426px) and (max-width: 768px) {
+  .divSection1 {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .imgSection1 {
+    display: none;
+  }
+  .divSection1 {
+    align-items: center;
+  }
+  .h1Section1 {
+    font-size: 35px;
+  }
+  .h3Section1 {
+    font-size: 20px;
+  }
+  .pAllSection1 {
+    font-size: 21px;
+  }
+}
 /* Mobile L */
 /* ########################################################################################################################################################################################## */
 /* Section 2 */
@@ -311,6 +428,16 @@ a:hover {
   margin: 0;
 }
 
+/* Laptop L */
+/* Laptop */
+/* Tablet */
+@media screen and (min-width: 426px) and (max-width: 768px) {
+  .divSection2 {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+}
+/* Mobile L */
 /* ########################################################################################################################################################################################## */
 /* Section 3 */
 /* ########################################################################################################################################################################################### */
@@ -412,15 +539,35 @@ a:hover {
 
 /* Laptop L */
 /* Laptop */
-@media screen and (min-width: 600px) and (max-width: 1024px) {
+@media screen and (min-width: 769px) and (max-width: 1024px) {
   .imgSection4 {
     width: 400px;
   }
   .div2Section4 {
     align-items: center;
   }
+  .iconeSection4 {
+    font-size: 40px;
+  }
 }
 /* Tablet */
+@media screen and (min-width: 426px) and (max-width: 768px) {
+  .imgSection4 {
+    display: none;
+  }
+  .div2Section4 {
+    align-items: center;
+  }
+  .iconeSection4 {
+    font-size: 50px;
+  }
+  .h3AllSection4 {
+    font-size: 20px;
+  }
+  .pAllSection4 {
+    font-size: 20px;
+  }
+}
 /* Mobile L */
 /* ########################################################################################################################################################################################## */
 /* Section 5 */
@@ -521,12 +668,29 @@ a:hover {
 
 /* Laptop L */
 /* Laptop */
-@media screen and (min-width: 600px) and (max-width: 1024px) {
-  .divAllSection5 {
-    flex-wrap: wrap;
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .divAllTemoignageTexteSection5 {
+    width: 225px;
+  }
+  .divCarouselBTN {
+    margin-top: 30px;
   }
 }
 /* Tablet */
+@media screen and (min-width: 426px) and (max-width: 768px) {
+  .divAllTemoignageTexteSection5 {
+    width: 565px;
+  }
+  .divCarouselBTN {
+    margin-top: 30px;
+  }
+  .divAllSection5 {
+    flex-wrap: wrap;
+  }
+  .divTemoignageProfileEntierSection5 {
+    padding-bottom: 30px;
+  }
+}
 /* Mobile L */
 /* ########################################################################################################################################################################################## */
 /* Section 6 */
@@ -612,6 +776,22 @@ a:hover {
   display: none;
 }
 
+/* Laptop L */
+/* Laptop */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .imgSection6 {
+    width: 265px;
+    height: 200px;
+  }
+}
+/* Tablet */
+@media screen and (min-width: 426px) and (max-width: 768px) {
+  .imgSection6 {
+    width: 190px;
+    height: 140px;
+  }
+}
+/* Mobile L */
 /* ########################################################################################################################################################################################## */
 /* Section 7 */
 /* ########################################################################################################################################################################################### */
@@ -761,7 +941,7 @@ a:hover {
 
 /* Laptop L */
 /* Laptop */
-@media screen and (min-width: 600px) and (max-width: 1024px) {
+@media screen and (min-width: 769px) and (max-width: 1024px) {
   .divPartieSoloMontantAllSection7 {
     width: 200px;
   }
@@ -775,6 +955,23 @@ a:hover {
   }
 }
 /* Tablet */
+@media screen and (min-width: 426px) and (max-width: 768px) {
+  .divPartieSoloMontantAllSection7 {
+    width: 310px;
+    margin-bottom: 30px;
+  }
+  .divPartieGrisAllSection7 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .h2BtnBuyNowSection7 {
+    width: 100px;
+  }
+  .divToutLesMontantsSection7 {
+    flex-wrap: wrap;
+  }
+}
 /* Mobile L */
 /* ########################################################################################################################################################################################## */
 /* Section 8 */
@@ -842,6 +1039,34 @@ a:hover {
   border: 2px solid white;
 }
 
+/* Laptop L */
+/* Laptop */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .divAllAccordion {
+    padding-right: 35px;
+    padding-left: 35px;
+  }
+  .pQuestionAllSection8 {
+    color: rgb(36, 37, 38);
+    font-size: 18px;
+    margin: 0;
+    width: 620px;
+  }
+}
+/* Tablet */
+@media screen and (min-width: 426px) and (max-width: 768px) {
+  .divAllAccordion {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  .pQuestionAllSection8 {
+    color: rgb(36, 37, 38);
+    font-size: 16px;
+    margin: 0;
+    width: 440px;
+  }
+}
+/* Mobile L */
 /* ########################################################################################################################################################################################## */
 /* Section 9 */
 /* ########################################################################################################################################################################################### */
@@ -973,7 +1198,7 @@ a:hover {
 
 /* Laptop L */
 /* Laptop */
-@media screen and (min-width: 600px) and (max-width: 1024px) {
+@media screen and (min-width: 769px) and (max-width: 1024px) {
   .paddingLRAdressSection9 {
     padding-left: 70px;
     padding-right: 70px;
@@ -987,12 +1212,68 @@ a:hover {
   }
   .googelMapSection9 {
     width: 845px;
+    margin-bottom: 20px;
   }
   .divFormsSection9 {
     width: 845px;
   }
+  .paddingBottomFormsSection9 {
+    padding-bottom: 15px;
+  }
+  .widthNameEtEmailSection9 {
+    width: 373px;
+  }
+  .marginRightNameSection9 {
+    margin: 0;
+  }
+  .marginLeftEmailSection9 {
+    margin-left: 10px;
+  }
+  .widthSubjectEtMessageSection9 {
+    width: 770px;
+  }
+  .limiteMessageSection9 {
+    max-width: 770px;
+    max-width: 770px;
+  }
 }
 /* Tablet */
+@media screen and (min-width: 426px) and (max-width: 768px) {
+  .paddingLRAdressSection9 {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .paddingLREmailEtPhoneSection9 {
+    padding-left: 45px;
+    padding-right: 45px;
+  }
+  .div2Section9 {
+    flex-wrap: wrap;
+  }
+  .googelMapSection9 {
+    width: 645px;
+    margin-bottom: 20px;
+  }
+  .divFormsSection9 {
+    width: 845px;
+  }
+  .widthNameEtEmailSection9 {
+    width: 273px;
+  }
+  .marginRightNameSection9 {
+    margin: 0;
+  }
+  .marginLeftEmailSection9 {
+    margin-left: 10px;
+  }
+  .widthSubjectEtMessageSection9 {
+    width: 570px;
+  }
+  .limiteMessageSection9 {
+    max-width: 570px;
+    max-width: 570px;
+  }
+}
 /* Mobile L */
 /* ########################################################################################################################################################################################## */
 /* Footer */
@@ -1106,6 +1387,49 @@ a:hover {
   text-decoration: none;
 }
 
+/* Laptop L */
+/* Laptop */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .divIconeAllFooter {
+    height: 20px;
+    width: 20px;
+    font-size: 15px;
+  }
+  .pFooter {
+    font-size: 14px;
+  }
+  .h6Footer {
+    font-size: 17px;
+  }
+  .resolutiondivAllFooterFooter {
+    width: 250px;
+  }
+  .h1Footer {
+    font-size: 30px;
+  }
+}
+/* Tablet */
+@media screen and (min-width: 426px) and (max-width: 768px) {
+  .divIconeAllFooter {
+    height: 15px;
+    width: 15px;
+    font-size: 12px;
+  }
+  .pFooter {
+    font-size: 12px;
+  }
+  .h6Footer {
+    font-size: 15px;
+  }
+  .resolutiondivAllFooterFooter {
+    width: 200px;
+    padding-right: 5px;
+  }
+  .h1Footer {
+    font-size: 20px;
+  }
+}
+/* Mobile L */
 /*!
  * Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)

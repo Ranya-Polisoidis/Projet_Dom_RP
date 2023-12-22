@@ -62,3 +62,45 @@
     color:rgba(255, 255, 255);
 }
 
+
+// 
+// /* --> Media Queries <-- */
+
+/* Laptop L */
+@media screen and (min-width:1440px) {
+    // Pas besoins de le faire CAR il sagit de ma résolution d'écrans
+}
+
+
+/* Laptop */
+@media screen and (min-width:769px) and (max-width:1024px) {
+
+    .divSurlignerh1Mixin{
+        margin-left: 400px;
+    }
+    
+}
+
+
+/* Tablet */
+@media screen and (min-width:426px) and (max-width:768px) {
+
+    .divSurlignerh1Mixin{
+        margin-left: 310px;
+    }
+
+    .divMixin{
+        padding-top: 100px;
+        padding-bottom: 100px;
+        padding-right: 60px;
+        padding-left: 60px;
+
+    }
+    
+}
+
+/* Mobile L */
+@media screen and (min-width:320px) and (max-width:425px) {
+
+}
+// 
