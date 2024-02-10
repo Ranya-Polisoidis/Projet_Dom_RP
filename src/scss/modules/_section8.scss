@@ -51,8 +51,8 @@
     font-size: 18px;
     margin:0;
 
-    width: 900px; // pas de padding (dés que j'ai un texte qui va et il peu varier dans sa longeure donc pour qu'il accepte toute longeure width)
-    // si rien et que un p il s'adaptera tout seul et prend toute la div (sauf si j'ai mis un padding forcément) mais comme j'ai mis des infos dedans en plus et que je suis dans une div en (between je force à lui prendre une taille)
+    width: 900px; // pas de padding (dès que j'ai un texte qui va et il peut varier dans sa longueur donc pour qu'il accepte toute longueur width)
+    // si rien et qu'un p il s'adaptera tout seul et prend toute la div (sauf si j'ai mis un padding forcément) mais comme j'ai mis des infos dedans en plus et que je suis dans une div en (between je force à lui prendre une taille)
 }
 
 .pReponsesAllSection8{
@@ -74,7 +74,6 @@
 }
 
 
-// 
 // /* --> Media Queries <-- */
 
 /* Laptop L */
@@ -97,8 +96,7 @@
         font-size: 18px;
         margin:0;
     
-        width: 620px; // pas de padding (dés que j'ai un texte qui va et il peu varier dans sa longeure donc pour qu'il accepte toute longeure width)
-        // si rien et que un p il s'adaptera tout seul et prend toute la div (sauf si j'ai mis un padding forcément) mais comme j'ai mis des infos dedans en plus et que je suis dans une div en (between je force à lui prendre une taille)
+        width: 620px; 
     }
 
 }
@@ -116,8 +114,7 @@
         font-size: 16px;
         margin:0;
     
-        width: 440px; // pas de padding (dés que j'ai un texte qui va et il peu varier dans sa longeure donc pour qu'il accepte toute longeure width)
-        // si rien et que un p il s'adaptera tout seul et prend toute la div (sauf si j'ai mis un padding forcément) mais comme j'ai mis des infos dedans en plus et que je suis dans une div en (between je force à lui prendre une taille)
+        width: 440px; 
     }
 
 }
@@ -133,8 +130,7 @@
         font-size: 16px;
         margin:0;
     
-        width: 340px; // pas de padding (dés que j'ai un texte qui va et il peu varier dans sa longeure donc pour qu'il accepte toute longeure width)
-        // si rien et que un p il s'adaptera tout seul et prend toute la div (sauf si j'ai mis un padding forcément) mais comme j'ai mis des infos dedans en plus et que je suis dans une div en (between je force à lui prendre une taille)
+        width: 340px; 
     }
     .iconeInterrogationAllSection8{
         font-size: 15px;
@@ -145,5 +141,4 @@
 
     }
 }
-// 
 

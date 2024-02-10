@@ -36,9 +36,6 @@
 }
 
 .spanAllSection1{
-    // ! A retenir: quand c'est une icone on va pas lui mettre de w ou de h mais plutot jouer avec le font et padding ! 
-    // width: 40px;
-    // height: 40px;
     font-size: 8px;
     padding: 5px;
 
@@ -55,7 +52,6 @@
 }
 
 
-// ! mettre animation
 .btnReadMoreSection1{
     display: flex;
     align-items: center;
@@ -68,9 +64,6 @@
     display: flex;
     font-size: 11px;
     
-    // align-items: center;
-
-    // justify-content: center;
     background: linear-gradient(45deg, rgba(86, 58, 250, 0.9) 0%, rgba(116, 15, 214, 0.9) 100%), url("lien de l'image") center center no-repeat;
     border: none;
 }
@@ -83,8 +76,6 @@
     width: 610px;
 }
 
-
-// 
 // /* --> Media Queries <-- */
 
 /* Laptop L */
@@ -173,8 +164,5 @@
         justify-content: center;
         padding: 0;
     }
-
-
 }
-// 
 

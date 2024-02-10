@@ -4,30 +4,22 @@
 
 
 .navHeader{
-    // Important !
-    // Avant tout enlever margin et padding en 0 dans mon ul (en dessous)
-    // Pour modifier parfaitement!
     padding-top: 15px;
     padding-bottom: 15px;
-
-
 
     display: flex;
     align-items: center;
     justify-content: center;
 
-    /* pour fixer en haut et tjr présente */
     position: fixed;
     top: 0;
     width: 100%;
-    /* width:100vw; */ /* ! lui ? */
 
     background: linear-gradient(45deg, rgba(86, 58, 250, 0.9) 0%, rgba(116, 15, 214, 0.9) 100%), url("lien de l'image") center center no-repeat;
 }
 
 .ulNavHeader{
 
-    // !Important tjr à mettre
     margin:0;
     padding:0;
 
@@ -37,7 +29,7 @@
     display: flex;
     align-items: center;
 
-    justify-content: space-between; // ! tjr car c'est bcp + simple a utiliser vus qu'il sont dans les bords ! 
+    justify-content: space-between; 
     gap:30px;
 }
 
@@ -46,7 +38,6 @@ a{
     color: rgba(207, 182, 239, 0.882);
 }
 
-// ! changer l'animation faire une autre
 a:hover{
     text-decoration: none;
     color:rgba(255, 255, 255)
@@ -62,8 +53,6 @@ a:hover{
     font-size: 15px;
 }
 
-
-// 
 // /* --> Media Queries <-- */
 
 /* Laptop L */
@@ -100,4 +89,3 @@ a:hover{
     
 
 }
-// 

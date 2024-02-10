@@ -6,19 +6,12 @@
 @import "./modules/style";
 
 
-// Fontawesome
 $fa-font-path : "../../node_modules/@fortawesome/fontawesome-free/webfonts";
 @import "../../node_modules/@fortawesome/fontawesome-free/scss/fontawesome.scss";
 @import "../../node_modules/@fortawesome/fontawesome-free/scss/solid.scss";
 @import "../../node_modules/@fortawesome/fontawesome-free/scss/brands.scss";
 @import "../../node_modules/@fortawesome/fontawesome-free/scss/regular.scss";
-// Ce que j'ai utiliser pour mon installation 
-// npm install --save @fortawesome/fontawesome-free
 
-
-// Sass
-// Ce que j'ai utiliser pour mon Sass (Scss)
-// sass --watch src/scss/app.scss:public/css/app.css
 
 
 

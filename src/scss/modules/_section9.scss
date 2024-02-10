@@ -184,7 +184,6 @@
     .paddingBottomFormsSection9{ 
         padding-bottom: 15px;
     }
-    // ! ici tjr mettre la taille dans l'input pour que le texte prend aussi (si je mets dans la div qui le contient le texte prendra pas de taille) 
     .widthNameEtEmailSection9{
         width: 373px;
     }
@@ -197,7 +196,7 @@
     .widthSubjectEtMessageSection9{
         width: 770px;
     }
-    .limiteMessageSection9{ // j'ai enlever le cols et rows par défaut (dans ma balise html)
+    .limiteMessageSection9{ 
         max-width: 770px;
         max-width: 770px;
     }
@@ -227,7 +226,6 @@
         width:845px;
     }
     // div forms
-    // ! ici tjr mettre la taille dans l'input pour que le texte prend aussi (si je mets dans la div qui le contient le texte prendra pas de taille) 
     .widthNameEtEmailSection9{
         width: 273px;
     }
@@ -240,7 +238,7 @@
     .widthSubjectEtMessageSection9{
         width: 570px;
     }
-    .limiteMessageSection9{ // j'ai enlever le cols et rows par défaut (dans ma balise html)
+    .limiteMessageSection9{ 
         max-width: 570px;
         max-width: 570px;
     }
@@ -268,7 +266,6 @@
         width:545px;
     }
     // div forms
-    // ! ici tjr mettre la taille dans l'input pour que le texte prend aussi (si je mets dans la div qui le contient le texte prendra pas de taille) 
     .widthNameEtEmailSection9{
         width: 145px;
     }
@@ -281,9 +278,8 @@
     .widthSubjectEtMessageSection9{
         width: 315px !important;
     }
-    .limiteMessageSection9{ // j'ai enlever le cols et rows par défaut (dans ma balise html)
+    .limiteMessageSection9{ 
         max-width: 315px;
         max-width: 315px; 
     }
 }
-// 
