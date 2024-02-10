@@ -15,23 +15,23 @@
     // color: rgba(255, 255, 255, 0.79);
 }
 
-.divBanniere{
+.divBanniere {
     display: flex;
     align-items: center;
     justify-content: center;
     font-size: 25px;
 }
 
-.div1Baniere{
+.div1Baniere {
     padding-right: 200px;
 }
 
-.h2Banniere{
+.h2Banniere {
     font-size: 55px;
-    color:rgba(255, 255, 255);
+    color: rgba(255, 255, 255);
 }
 
-.divBtnGetStartedEtBtnJourNuit{
+.divBtnGetStartedEtBtnJourNuit {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -40,30 +40,27 @@
 // voir pour les deux (car il sont dans navbar)
 
 // ! ajouter animation ici (et voir celle de la nav)
-.btnGetStartedNavHeaderEtBanniere{
+.btnGetStartedNavHeaderEtBanniere {}
 
-}
-.h2BtnGetStartedNavHeaderEtBanniere{
+.h2BtnGetStartedNavHeaderEtBanniere {}
 
-}
 // 
 
-.imgBanniere{
+
+.imgBanniere {
     width: 450px;
 }
 
-
-
 // Mon bouton jour & nuit 
 
-.divBtnJourNuitSection7{
+.divBtnJourNuitSection7 {
     display: flex;
-    align-items: center; 
+    align-items: center;
     flex-direction: row;
 }
 
-.divCercle2{
-    background-color: rgba(86, 58,250, 0.709);
+.divCercle2 {
+    background-color: rgba(86, 58, 250, 0.709);
     width: 4.3rem;
     height: 2.3rem;
     border-radius: 40px;
@@ -74,7 +71,7 @@
     align-items: center;
 }
 
-.cercle2{
+.cercle2 {
     background-color: white;
     width: 1.7rem;
     height: 1.7rem;
@@ -84,16 +81,16 @@
     // left: 2rem; // qui deviendra après
     margin-left: 5px;
     margin-top: 5px;
-    margin-bottom:5px;
+    margin-bottom: 5px;
 }
 
-.pJourBtnSection7{
-    color:rgba(86, 58,250, 0.709);
+.pJourBtnSection7 {
+    color: rgba(86, 58, 250, 0.709);
     margin-right: 10px;
 }
 
-.pNuitBtnSection7{
-    color:rgb(142, 144, 150);
+.pNuitBtnSection7 {
+    color: rgb(142, 144, 150);
     margin-left: 10px;
 }
 
@@ -117,17 +114,20 @@
         padding-left: 0px;
         padding-right: 0px;
     }
-    .imgBanniere{
+
+    .imgBanniere {
         width: 280px;
     }
-    .h2Banniere{
+
+    .h2Banniere {
         font-size: 45px;
-        color:rgba(255, 255, 255);
+        color: rgba(255, 255, 255);
     }
-    .div1Baniere{
+
+    .div1Baniere {
         padding-right: 120px;
     }
-    
+
 }
 
 
@@ -140,13 +140,16 @@
         padding-left: 0px;
         padding-right: 0px;
     }
-    .imgBanniere{
+
+    .imgBanniere {
         width: 280px;
     }
-    .h2Banniere{
+
+    .h2Banniere {
         font-size: 35px;
     }
-    .div1Baniere{
+
+    .div1Baniere {
         padding-right: 120px;
     }
 
@@ -170,14 +173,17 @@
         padding-left: 0px;
         padding-right: 0px;
     }
-    .imgBanniere{
+
+    .imgBanniere {
         width: 280px;
         display: none;
     }
-    .h2Banniere{
+
+    .h2Banniere {
         font-size: 25px;
     }
-    .div1Baniere{
+
+    .div1Baniere {
         padding-right: 0;
     }
 
@@ -190,5 +196,5 @@
         flex-direction: column;
     }
 }
-// 
 
+// 
